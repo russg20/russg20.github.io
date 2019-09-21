@@ -2,10 +2,7 @@ body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
 }
-#content {
-    max-width: 900px;
 
-} 
 header, footer {
     background-color: #007841;
     text-align: center;
@@ -13,6 +10,10 @@ header, footer {
     color: #ffffff;
 
 }
+#content {
+    max-width: 900px;
+
+} 
 header img {
     float: right;
     width: 100px;
