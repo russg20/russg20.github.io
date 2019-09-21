@@ -1,9 +1,10 @@
 body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
+}
+main {
     max-width: 900px;
     line-height: 1.5;
-
 }
 header, footer {
     background-color: #007841;
@@ -12,14 +13,15 @@ header, footer {
     color: #ffffff;
 
 }
+header img {
+    float: right;
+    width: 100px;
+    margin: 15px;
+}
 header {
     font-weight: bold;
 }
-header img {
-    width: 150px;
-    margin: 15px;
-    float: right;
-}
+
 main h2 {
     font-weight: bold;
     border-bottom: 5px, solid, black;
