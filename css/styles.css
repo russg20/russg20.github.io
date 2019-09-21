@@ -1,0 +1,27 @@
+body {
+    font-family: 'Chilanka', 'Arial', cursive;
+    font-size: 16px;
+    max-width: 1000px;
+    line-height: 1.5;
+
+}
+header, footer {
+    background-color: #007841;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
+header {
+    font-weight: bold;
+}
+header img {
+    width: 250px;
+    margin: 15px;
+    float: right;
+}
+main h2 {
+    font-weight: bold;
+    border-bottom: 5px, solid, black;
+    text-align: center;
+}
