@@ -23,6 +23,3 @@ main h2 {
     font-weight: bold;
     border-bottom: 5px, solid, black;
 }
-#content {
-    max-width: 900px;
-}
