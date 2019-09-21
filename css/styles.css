@@ -1,10 +1,9 @@
 body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
-}
-header, main, footer {
-    margin: 1.25em auto;
     max-width: 900px;
+    margin: 1.25em auto;
+}
     
 }
 header, footer {
@@ -21,7 +20,7 @@ header img {
 }
 header {
     font-weight: bold;
-    height: 1em;
+    height: 60px;
 }
 
 main h2 {
