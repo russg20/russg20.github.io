@@ -1,11 +1,11 @@
 body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
+}
+#content {
     max-width: 900px;
-    margin: 1.25em auto;
-}
-    
-}
+
+} 
 header, footer {
     background-color: #007841;
     text-align: center;
@@ -20,7 +20,7 @@ header img {
 }
 header {
     font-weight: bold;
-    height: 60px;
+    height: 3em;
 }
 
 main h2 {
