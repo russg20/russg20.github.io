@@ -1,7 +1,7 @@
 body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
-    max-width: 1000px;
+    max-width: 900px;
     line-height: 1.5;
 
 }
@@ -16,12 +16,11 @@ header {
     font-weight: bold;
 }
 header img {
-    width: 250px;
+    width: 200px;
     margin: 15px;
     float: right;
 }
 main h2 {
     font-weight: bold;
     border-bottom: 5px, solid, black;
-    text-align: center;
 }
