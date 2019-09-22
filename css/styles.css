@@ -2,12 +2,15 @@ body {
     font-family: 'Chilanka', 'Arial', cursive;
     font-size: 16px;
 }
+header, main, footer {
+    margin: 1.25em;
+    max-width: 900px;
+}
 header, footer {
     background-color: #007841;
     text-align: center;
     border-radius: 10px;
     color: #ffffff;
-
 }
 header img {
     float: right;
