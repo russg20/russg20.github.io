@@ -22,10 +22,15 @@ header {
     font-size: 22px;
     height: 4em;
     padding-top: 0.5em;
+    padding-bottom: 1em;
 }
 main h2 {
     font-weight: bold;
     border-bottom: 1px, solid, black;
+    margin-left: 2em;
+}
+footer {
+    height: 2.5em;
 }
 footer a {
     color: white;
