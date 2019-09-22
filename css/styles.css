@@ -3,7 +3,7 @@ body {
     font-size: 16px;
 }
 header, main, footer {
-    margin: 1.25em;
+    margin: 1.5em;
     max-width: 900px;
 }
 header, footer {
@@ -19,11 +19,14 @@ header img {
 }
 header {
     font-weight: bold;
-    height: 3em;
+    height: 4em;
 }
 main h2 {
     font-weight: bold;
     border-bottom: 5px, solid, black;
+}
+footer a {
+    color: white;
 }
 footer div {
     color: yellow;
