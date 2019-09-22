@@ -21,17 +21,15 @@ header {
     font-weight: bold;
     font-size: 22px;
     height: 4em;
+    padding-top: 1em;
 }
 main h2 {
     font-weight: bold;
-    border-bottom: 5px, solid, black;
+    border-bottom: 1px, solid, black;
 }
 footer a {
     color: white;
 }
 footer div {
     color: yellow;
-}
-header h1 {
-    padding: 1.5em;
 }
