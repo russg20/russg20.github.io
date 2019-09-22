@@ -4,7 +4,7 @@ body {
 }
 header, main, footer {
     margin: 1.5em;
-    max-width: 900px;
+    max-width: 800px;
 }
 header, footer {
     background-color: #007841;
@@ -20,6 +20,7 @@ header img {
 header {
     font-weight: bold;
     height: 4em;
+    padding: 1em;
 }
 main h2 {
     font-weight: bold;
