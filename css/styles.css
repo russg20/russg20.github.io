@@ -32,3 +32,7 @@ footer a {
 footer div {
     color: yellow;
 }
+header h1 {
+    padding: 1.5em;
+    font-size: 20px;
+}
