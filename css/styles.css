@@ -19,8 +19,10 @@ header img {
 }
 header {
     font-weight: bold;
+    font-size: 22px;
     height: 4em;
     padding: 1em;
+    vertical-align: middle;
 }
 main h2 {
     font-weight: bold;
@@ -34,5 +36,4 @@ footer div {
 }
 header h1 {
     padding: 1.5em;
-    font-size: 20px;
 }
