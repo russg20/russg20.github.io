@@ -38,3 +38,6 @@ footer a {
 footer div {
     color: yellow;
 }
+main ul {
+    margin-left: 2em;
+}
