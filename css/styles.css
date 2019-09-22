@@ -3,7 +3,7 @@ body {
     font-size: 16px;
 }
 header, main, footer {
-    margin: 1.5em;
+    margin: 1.5em auto;
     max-width: 800px;
 }
 header, footer {
@@ -31,6 +31,7 @@ main h2 {
 }
 footer {
     height: 2.5em;
+    font-size: 0.9em;
 }
 footer a {
     color: white;
