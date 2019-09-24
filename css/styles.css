@@ -24,6 +24,9 @@ header {
     padding-top: 0.5em;
     padding-bottom: 1em;
 }
+h1, h2 {
+    font-family: 'Righteous', cursive;
+}
 main h2 {
     font-weight: bold;
     border-bottom: 1px solid black;
