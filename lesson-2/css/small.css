@@ -9,6 +9,7 @@ header, footer {
     color: white;
     max-width: 900px;
     height: 3.5rem;
+    margin: 0 auto;
 }
 main {
     display: grid;
