@@ -8,6 +8,7 @@ header, footer {
     text-align: center;
     color: white;
     max-width: 900px;
+    height: 3.5rem;
 }
 main {
     display: grid;
@@ -16,7 +17,9 @@ main {
     margin: 0 auto;
     font-size: 0.9rem;
 }
-section h4 {
+h4 {
+    margin: 0;
+    padding: 1rem;
     background-color: aquamarine;
     border-radius: 10px 10px 0px 0px;
     color: black;
@@ -29,4 +32,13 @@ main section {
     background-color: beige;
     padding: 0.5rem;
 }
-
+footer {
+    height: 3em;
+    font-size: 0.9em;
+}
+footer a {
+    color: white;
+}
+footer div {
+    color: yellow;
+}
