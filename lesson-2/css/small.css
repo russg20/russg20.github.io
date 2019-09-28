@@ -22,6 +22,8 @@ h3 {
 }
 h4, p {
     padding: 1rem;
+}
+.explain {
     line-height: 1.5rem;
 }
 section {
