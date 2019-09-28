@@ -7,11 +7,12 @@ header, footer {
     background-color: #007841;
     text-align: center;
     color: white;
+    max-width: 900px;
 }
 main {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 770px;
+    max-width: 900px;
     margin: 0 auto;
     font-size: 0.9rem;
 }
