@@ -23,6 +23,7 @@ h3 {
 }
 h4, p {
     padding: 1rem;
+    font-size: 20px;
 }
 .explain {
     line-height: 1.5rem;
@@ -32,7 +33,6 @@ section {
     margin: 0.5rem;
     background-color: beige;
     border-radius: 10px 10px 0px 0px;
-    font-size: 20px;
 }
 img {
     display: block;
