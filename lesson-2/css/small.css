@@ -48,7 +48,8 @@ main {
 footer {
     height: 3em;
     font-size: 0.9em;
-    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 footer a {
     color: white;
