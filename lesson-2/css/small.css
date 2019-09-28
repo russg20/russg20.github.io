@@ -20,6 +20,10 @@ h3 {
     border: 1px solid gray;
 
 }
+h4, p {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
 section {
     border: 1px solid gray;
     margin: 0.5rem;
