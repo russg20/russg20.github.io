@@ -26,6 +26,12 @@ section {
     margin: 0.5rem;
     background-color: beige;
     padding: 0.5rem;
+    border-radius: 10px 10px 0px 0px;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
 }
 main {
     display: grid;
