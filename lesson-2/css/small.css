@@ -11,20 +11,13 @@ header, footer {
     height: 3.5rem;
     margin: 0 auto;
 }
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 1080px;
-    margin: 0 auto;
-    font-size: 0.9rem;
-}
 h4 {
     margin: 0;
     padding: 1rem;
     background-color: aquamarine;
     border-radius: 10px 10px 0px 0px;
     color: black;
-    height: 30px;
+    height: 26px;
     border: 1px solid gray;
 
 }
@@ -33,6 +26,13 @@ section {
     margin: 0.5rem;
     background-color: beige;
     padding: 0.5rem;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 0.9rem;
 }
 footer {
     height: 3em;
