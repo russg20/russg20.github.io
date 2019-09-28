@@ -8,10 +8,10 @@ header, footer {
     text-align: center;
     color: white;
     max-width: 1080px;
-    height: 3.5rem;
+    height: 4rem;
     margin: 0 auto;
 }
-h4 {
+h3 {
     margin: 0;
     padding: 1rem;
     background-color: aquamarine;
