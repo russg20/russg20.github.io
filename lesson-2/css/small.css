@@ -33,7 +33,8 @@ section {
     border-radius: 10px 10px 0px 0px;
 }
 img {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid gray;
 }
 main {
