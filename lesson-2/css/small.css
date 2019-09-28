@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    font-family: 'Mansalva', cursive;
+}
+header, footer {
+    font-family: 'ABeeZee', Arial, sans-serif;
+    background-color: #007841;
+    text-align: center;
+    color: white;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}
+section h4 {
+    background-color: aquamarine;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    height: 18px;
+
+}
+main section {
+    border: 1px solid gray;
+    margin: 0.5rem;
+    background-color: beige;
+    padding: 0.5rem;
+}
+
