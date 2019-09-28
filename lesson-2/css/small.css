@@ -48,6 +48,7 @@ main {
 footer {
     height: 3em;
     font-size: 0.9em;
+    text-align: center;
 }
 footer a {
     color: white;
