@@ -6,6 +6,7 @@ header, footer {
     background-color: #007841;
     text-align: center;
     color: white;
+    padding: 1rem;
 }
 header, footer, nav, main {
     max-width: 1080px;
