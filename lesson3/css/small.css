@@ -1,0 +1,55 @@
+body {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+header, footer {
+    background-color: #007841;
+    text-align: center;
+    color: white;
+}
+header, footer, nav, main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 1.9rem;
+}
+h2 {
+    font-size: 1.65rem;
+}
+nav {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.active {
+    color: lightcoral;
+}
+main {
+    background-color: #eeeeee;
+    padding: 1rem;
+    
+}
+h3 {
+    color: #007841;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
