@@ -21,7 +21,6 @@ h2 {
 nav {
     background-color: black;
     text-align: center;
-    color: white;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -34,15 +33,16 @@ nav ul {
 nav li a {
     display: block;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.75rem;
     text-decoration: none;
+    color: white;
 }
 nav a:hover {
     background-color: lightslategray;
     color: black;
 }
 .active {
-    color: cyan;
+    color: rgb(84, 169, 226);
 }
 main {
     background-color: #eeeeee;
