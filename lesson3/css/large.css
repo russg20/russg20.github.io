@@ -5,4 +5,7 @@
     #typLayout {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    article:nth-child(1) {
+        grid-column: span 1;
+    }
 }
