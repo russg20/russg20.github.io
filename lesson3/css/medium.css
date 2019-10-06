@@ -9,8 +9,13 @@
         flex: 1 1 100%;
     }
     #colorLayout {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
 
     }
-
+    #typLayout {
+        grid-template-columns: 1fr 1fr;
+    }
+    article:nth-child(1) {
+        grid-column: span 2;
+    }
 }

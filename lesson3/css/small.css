@@ -53,6 +53,10 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
+#typLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 h3 {
     color: #007841;
     font-weight: bold;
