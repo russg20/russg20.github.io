@@ -49,6 +49,10 @@ main {
     padding: 1rem;
 
 }
+#colorLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 h3 {
     color: #007841;
     font-weight: bold;

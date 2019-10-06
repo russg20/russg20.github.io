@@ -8,5 +8,9 @@
     nav ul li {
         flex: 1 1 100%;
     }
-    
+    #colorLayout {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
 }
