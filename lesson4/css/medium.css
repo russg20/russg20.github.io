@@ -1,13 +1,12 @@
 @media only screen and (min-width: 40em) {
-    .navlist {
-        display: flex;
+    .heading h1 {
+        font-size: 1.9rem;
     }
-    .navlist li:first-child {
-        display: none;
+    header img {
+        width: 80px;
     }
-    .navlist li {
-        flex: 1 1 100%;
-        display: block;
+    .motto {
+        font-size: 0.95rem;
     }
     
 }

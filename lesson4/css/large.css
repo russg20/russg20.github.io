@@ -8,4 +8,14 @@
     .motto {
         font-size: 1rem;
     }
+    .navlist {
+        display: flex;
+    }
+    .navlist li:first-child {
+        display: none;
+    }
+    .navlist li {
+        flex: 1 1 100%;
+        display: block;
+    }
 }
