@@ -1,9 +1,6 @@
 body {
     font-size: 18px;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #a5a5af;
-    padding: 0;
-    margin: 0;
 }
 header {
     background-color: #57bc90;
@@ -64,5 +61,6 @@ main, footer {
     margin: 0 auto;
 }
 main {
-
+    background-color: #a5a5af;
+    padding: 0;
 }
