@@ -64,7 +64,7 @@ nav a:hover {
 .responsive li {
     display: block;
 }
-.active {
+.navlist .active {
     color: rgb(84, 169, 226);
 }
 footer, main {
@@ -73,9 +73,6 @@ footer, main {
 }
 main {
     background-color: #a5a5af;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 2fr;
 }
 .holderbox {
     width: 100%;
