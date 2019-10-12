@@ -75,6 +75,13 @@ main {
     background-color: #a5a5af;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
 }
-
+.holderbox {
+    margin: 10px;
+    border: 1px dashed black;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
