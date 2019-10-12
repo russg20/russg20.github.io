@@ -29,8 +29,8 @@ header img {
     margin-left: 18px;
 }
 nav {
-    width: 100%;
     margin: 0;
+    width: 100%;
     background-color: #015249;
 }
 .navlist {
@@ -59,4 +59,7 @@ nav {
 .responsive li {
     display: block;
 }
-
+main, footer {
+    max-width: 1080px;
+    margin: 0 auto;
+}
