@@ -28,3 +28,35 @@ header img {
     font-size: 0.9rem;
     margin-left: 18px;
 }
+nav {
+    width: 100%;
+    margin: 0;
+    background-color: #015249;
+}
+.navlist {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+.navlist li:first-child {
+    display: block;
+}
+.navlist li {
+    display: none;
+}
+.navlist a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+}
+.navlist a:hover {
+    background-color: #a5a5af;
+    color: black;
+    font-weight: 700;
+}
+.responsive li {
+    display: block;
+}
+
