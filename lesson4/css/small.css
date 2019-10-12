@@ -8,6 +8,13 @@ header, footer {
     color: black;
     padding: 0.5rem;
 }
+header {
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 70px;
+}
 .heading {
     display: flex;
     flex-direction: column;
@@ -23,9 +30,6 @@ footer, main {
 h2 {
     font-size: 1.65rem;
     text-align: center;
-}
-header img {
-    width: 70px;
 }
 .motto {
     font-style: italic;
