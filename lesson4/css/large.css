@@ -21,4 +21,7 @@
     h2 {
         font-size: 1.65rem;
     }
+    footer, main {
+        max-width: 1080px;
+    }
 }
