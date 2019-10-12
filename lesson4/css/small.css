@@ -4,7 +4,6 @@ body {
 }
 header, footer {
     background-color: #57bc90;
-    text-align: center;
     color: black;
     padding: 0.5rem;
 }
@@ -85,4 +84,7 @@ main {
     padding: 5px;
     background-color: white;
     color: black;
+}
+footer {
+    text-align: center;
 }
