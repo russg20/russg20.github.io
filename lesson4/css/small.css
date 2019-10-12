@@ -19,10 +19,6 @@ header img {
     display: flex;
     flex-direction: column;
 }
-footer, main {
-    max-width: 1080px;
-    margin: 0 auto;
-}
 .heading h1 {
     font-size: 1.75rem;
     margin: 0 0 0 15px;
@@ -70,6 +66,10 @@ nav a:hover {
 }
 .active {
     color: rgb(84, 169, 226);
+}
+footer, main {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 main {
     background-color: #a5a5af;
