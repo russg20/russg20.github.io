@@ -8,10 +8,9 @@ header, footer {
     color: black;
     padding: 0.5rem;
 }
-header {
+.heading {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 footer, main {
     max-width: 1080px;
@@ -23,13 +22,10 @@ footer, main {
 }
 h2 {
     font-size: 1.65rem;
+    text-align: center;
 }
 header img {
     width: 70px;
-}
-.heading {
-    display: flex;
-    flex-direction: column;
 }
 .motto {
     font-style: italic;
