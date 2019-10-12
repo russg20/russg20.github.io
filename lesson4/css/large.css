@@ -18,4 +18,7 @@
         flex: 1 1 100%;
         display: block;
     }
+    h2 {
+        font-size: 1.65rem;
+    }
 }
