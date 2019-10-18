@@ -94,6 +94,7 @@ main {
     opacity: 0.9;
     color: white;
     padding: 1rem;
+    line-height: 1rem;
 }
 .holderbox {
     margin: 10px 0 10px 0;
