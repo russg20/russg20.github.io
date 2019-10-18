@@ -50,7 +50,7 @@ nav {
 .navlist li {
     display: none;
 }
-.navlist .active {
+.navlist li .active {
     color: rgb(84, 169, 226);
 }
 .navlist a {
@@ -82,9 +82,16 @@ main {
     position: relative;
 }
 .herocontainer img {
-    width: 90%;
+    width: 100%;
     border: 1px solid black;
-    
+}
+.summary {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background: #015249;
+    border: 1px solid black;
+    opacity: 0.8;
 }
 .holderbox {
     margin: 10px 0 10px 0;
