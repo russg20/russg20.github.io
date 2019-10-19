@@ -114,10 +114,11 @@ main {
     border-left: 1px solid black;
     border-right: 1px solid black;
     justify-content: center;
+    justify-items: center;
     display: grid;
 }
 .fcastDay {
-    background-color: #77d9c4;
+    background-color: #77c9d4;
     color: black;
 }
 .holderbox {
