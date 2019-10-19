@@ -149,6 +149,7 @@ main {
 article {
     background-color: whitesmoke;
     display: block;
+    overflow: auto;
 }
 article img {
     width: 250px;
