@@ -50,7 +50,7 @@ nav {
 .navlist li {
     display: none;
 }
-.navlist li .active {
+.navlist .active {
     color: rgb(84, 169, 226);
 }
 .navlist a {
