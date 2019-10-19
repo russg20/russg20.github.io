@@ -1,6 +1,6 @@
 function showBannerFri() {
     if (weekday=="Friday") {
-        document.getElementsByClassName("hideban")
-        [0].classList.toggle("hideban");
+        document.getElementsByClassName("hiddenban")
+        [0].classList.toggle("hiddenban");
     }
 }
