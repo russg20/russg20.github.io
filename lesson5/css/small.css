@@ -100,6 +100,26 @@ main {
     line-height: 0.9rem;
     font-size: 0.8rem;
 }
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 600px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0 auto;
+}
+.forecast div {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    justify-content: center;
+    display: grid;
+}
+.fcastDay {
+    background-color: #77d9c4;
+    color: black;
+}
 .holderbox {
     margin: 10px 0 10px 0;
     border: 1px dashed black;
