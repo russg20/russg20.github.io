@@ -134,6 +134,9 @@ main {
 .dailytemp {
     padding-bottom: 0.25rem;
 }
+.fiveday {
+    display: none;
+}
 .holderbox {
     margin: 10px 0 10px 0;
     border: 1px dashed black;
