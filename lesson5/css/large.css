@@ -24,4 +24,11 @@
     footer, main {
         max-width: 1080px;
     }
+    .summary h3 {
+        font-size: 1.4rem;
+    }
+    .summary {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
 }

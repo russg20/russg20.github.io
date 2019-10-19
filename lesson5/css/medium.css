@@ -11,5 +11,12 @@
     h2 {
         font-size: 1.5rem;
     }
+    .summary h3 {
+        font-size: 1.2rem;
+    }
+    .summary {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
     
 }
