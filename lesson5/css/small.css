@@ -134,6 +134,7 @@ main {
 }
 .fiveday {
     display: none;
+    padding-bottom: 20px;
 }
 .bannerad {
     background-color: coral;
@@ -145,6 +146,11 @@ main {
 .hiddenban {
     display: none;
 }
+article {
+    background-color: whitesmoke;
+    display: block;
+}
+
 .holderbox {
     margin: 10px 0 10px 0;
     border: 1px dashed black;
