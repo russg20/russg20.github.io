@@ -120,6 +120,10 @@ main {
 .fcastDay {
     background-color: #77c9d4;
     color: black;
+    padding: 0.15rem;
+}
+.dailytemp {
+    padding-bottom: 0.15rem;
 }
 .holderbox {
     margin: 10px 0 10px 0;
