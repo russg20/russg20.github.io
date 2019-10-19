@@ -21,6 +21,8 @@
     .fiveday {
         display: block;
     }
-
+    .fivedayhead {
+        font-size: 1.2rem;
+    }
     
 }
