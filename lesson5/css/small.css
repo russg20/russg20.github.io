@@ -114,16 +114,19 @@ main {
 .forecast div {
     border-left: 1px solid black;
     border-right: 1px solid black;
-    justify-items: center;
+    justify-content: center;
     display: grid;
 }
 .fcastDay {
     background-color: #77c9d4;
     color: black;
-    padding: 0.15rem;
+    padding: 0.25rem;
+}
+.wimage {
+    margin: 0 auto;
 }
 .dailytemp {
-    padding-bottom: 0.15rem;
+    padding-bottom: 0.25rem;
 }
 .holderbox {
     margin: 10px 0 10px 0;
