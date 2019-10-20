@@ -163,12 +163,13 @@ article h3, h4 {
 article p {
     margin: 20px 15px;
 }
-.holderbox {
-    margin: 10px 0 10px 0;
-    border: 1px dashed black;
-    padding: 5px;
-    background-color: white;
-    color: black;
+.contactinfo {
+    background-color: whitesmoke;
+    margin: 20px 0;
+    text-align: center;
+}
+.contactinfo img {
+    display: none;
 }
 footer {
     text-align: center;
