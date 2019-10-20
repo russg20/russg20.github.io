@@ -51,7 +51,7 @@ nav {
     display: none;
 }
 .navlist .active {
-    color: rgb(84, 169, 226);
+    color: yellow;
 }
 .navlist a {
     display: block;
