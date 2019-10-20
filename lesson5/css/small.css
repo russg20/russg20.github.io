@@ -167,11 +167,14 @@ article p {
     background-color: whitesmoke;
     margin: 20px 0;
     text-align: center;
+    display: block;
     overflow: auto;
-    padding: 15px;
 }
 .contactname {
     font-weight: bold;
+}
+.companyadd {
+    padding: 15px;
 }
 .contactinfo img {
     display: none;
