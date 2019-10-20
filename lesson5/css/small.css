@@ -167,6 +167,11 @@ article p {
     background-color: whitesmoke;
     margin: 20px 0;
     text-align: center;
+    overflow: auto;
+    padding: 15px;
+}
+.contactname {
+    font-weight: bold;
 }
 .contactinfo img {
     display: none;
