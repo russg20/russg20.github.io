@@ -1,0 +1,38 @@
+@media only screen and (min-width: 60em) {
+    .heading h1 {
+        font-size: 2.5rem;
+    }
+    header img {
+        width: 90px;
+    }
+    .motto {
+        font-size: 1rem;
+    }
+    .navlist {
+        display: flex;
+    }
+    .navlist li:first-child {
+        display: none;
+    }
+    .navlist li {
+        flex: 1 1 100%;
+        display: block;
+    }
+    h2 {
+        font-size: 1.65rem;
+    }
+    footer, main {
+        max-width: 1080px;
+    }
+    .summary h3 {
+        font-size: 1.4rem;
+    }
+    .summary {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .fivedayhead {
+        font-size: 1.4rem;
+    }
+    
+}

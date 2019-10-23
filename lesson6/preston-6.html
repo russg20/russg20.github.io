@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston | Weather-R-Us</title>
+    <meta name="description" content="The Weather-R-Us site for the city of Preston, Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans%7cRoboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body onload="showBannerFri()">
+    <div class="bannerad hiddenban">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture>
+            <img src="images/weatherlogo.jpg" alt="Weather-R-Us Logo">
+        </picture>
+        <section class="heading">
+            <h1>Weather-R-Us</h1>
+            <div class="motto">We are your source for everything weather in Southeast Idaho!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navlist">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-5.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="herocontainer">
+            <img src="images/preston_image.jpg" alt="Picture of grassy fields and hills">
+            <section class="summary">
+                <h3><u>Weather Summary   </u></h3>
+                <div>Currently: <span id="currweath">Partly Cloudy</span></div>
+                <div>High: <span id="hightemp">51 &#8457;</span></div>
+                <div>Wind Chill: <span id="windchill"> &#8457;</span></div>
+                <div>Humidity: <span id="humidity">66&percnt;</span></div>
+                <div>Wind Speed: <span id="wspeed">8 mph</span></div>
+            </section>
+        </div>
+        <section class="fiveday">
+            <h3 class="fivedayhead">5-Day Forecast</h3>
+            <div class="forecast">
+                <div class="fcastDay">Wed</div>
+                <div class="fcastDay">Thu</div>
+                <div class="fcastDay">Fri</div>
+                <div class="fcastDay">Sat</div>
+                <div class="fcastDay">Sun</div>
+                <div><img class="wimage" src="images/pcloudy.png" alt="Partly Cloudy icon"></div>
+                <div><img class="wimage" src="images/rainy.png" alt="Rainy icon"></div>
+                <div><img class="wimage" src="images/pcloudy.png" alt="Partly Cloudy icon"></div>
+                <div><img class="wimage" src="images/snowy.png" alt="Snowy icon"></div>
+                <div><img class="wimage" src="images/pcloudy.png" alt="Partly Cloudy icon"></div>
+                <div class="dailytemp">49&#8457;</div>
+                <div class="dailytemp">43&#8457;</div>
+                <div class="dailytemp">43&#8457;</div>
+                <div class="dailytemp">49&#8457;</div>
+                <div class="dailytemp">53&#8457;</div>
+            </div>
+        </section>
+        <article>
+            <img src="images/foundersdayimg.jpg" alt="boy playing with leaves">
+            <h3>Founders Day Fresco</h3>
+            <h4>by Janica Juarez</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem incidunt 
+                nostrum, vero facere recusandae. Dolorum perferendis doloremque dolor at dolorem. Perferendis
+                 repellendus quisquam libero eius pariatur voluptatum. Esse, molestias dolores. Error, fugit 
+                 culpa dolore tempora modi sunt totam itaque non consequatur consectetur sint exercitationem 
+                 voluptates ea repellat earum. Natus suscipit, omnis ipsa facilis odio iusto. Veniam esse 
+                 provident nihil minus, tempora eveniet tenetur dicta, saepe sit corporis cupiditate beatae 
+                 repellat dignissimos aut ipsum recusandae nisi eligendi fugiat ipsa non! Cupiditate asperiores, 
+                 est adipisci eos aut minus, ducimus distinctio ullam ab enim officia ea, molestiae aspernatur 
+                 expedita obcaecati earum velit.</p>
+        </article>
+        <section class="contactinfo">
+            <img src="images/prestonmap.jpg" alt="Map of Weather-R-Us location">
+            <h3>Contact Information</h3>
+            <div class="companyname">Weather-R-Us</div>
+            <div class="companyadd">60 N State Street</div>
+            <div class="companyadd">Preston, ID 83263</div><br>
+            <div class="companyadd">&#9742; (208) 845-1192</div>
+            <div class="companyadd">&#128231; office@weatherrus.info</div>
+            
+        </section>
+    </main>
+    <footer>
+        <span>&copy; 2019</span>
+        <span> | <a href="#">Terms of use</a> | Ginger Russ</span><br>
+        <span id="localDate"></span>
+    </footer>
+    <script src="js/satbreakfastad.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

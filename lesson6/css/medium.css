@@ -1,0 +1,40 @@
+@media only screen and (min-width: 40em) {
+    .heading h1 {
+        font-size: 2rem;
+    }
+    header img {
+        width: 80px;
+    }
+    .motto {
+        font-size: 0.95rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .summary h3 {
+        font-size: 1.2rem;
+    }
+    .summary {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .fiveday {
+        display: block;
+    }
+    .fivedayhead {
+        font-size: 1.2rem;
+    }
+    article img {
+        float: right;
+        padding: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        margin-right: 20px;
+    }
+    .contactinfo img {
+        display: block;
+        float: left;
+        margin-left: 35px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
