@@ -1,5 +1,5 @@
-var temp = parseInt(document.getElementById("hightemp").value);
-var speed = parseInt(document.getElementById("wspeed").value);
+var temp = document.getElementById("hightemp").value;
+var speed = document.getElementById("wspeed").value;
 
 function wChill() {
     
