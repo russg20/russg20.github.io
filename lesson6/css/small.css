@@ -82,6 +82,7 @@ main {
     position: relative;
 }
 .herocontainer img {
+    width: 100%;
     border: 1px solid black;
 }
 .summary h3 {
