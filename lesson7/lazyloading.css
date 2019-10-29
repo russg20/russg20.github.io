@@ -10,9 +10,6 @@ picture {
     justify-items: center;
 }
 
-picture img[data-src] {
-    filter: blur(0.2em);
-}
 picture img {
     border: 1px solid black;
     margin: 0 auto;
