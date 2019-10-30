@@ -10,13 +10,14 @@ picture {
     justify-items: center;
 }
 
+picture img[data-src] {
+    filter: blur(0.5em);
+}
+
 picture img {
     border: 1px solid black;
     margin: 10px auto;
-    filter: blur(0.2em);
+    filter: blur(0em);
+    transition: filter 3s;
 }
 
-picture img[data-src] {
-    filter: blur(0em);
-    transition: filter 1s;
-}
