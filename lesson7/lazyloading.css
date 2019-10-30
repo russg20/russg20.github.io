@@ -11,13 +11,13 @@ picture {
 }
 
 picture img[data-src] {
-    filter: blur(0.5em);
+    filter: blur(0em);
+    transition: filter 3s;
 }
 
 picture img {
     border: 1px solid black;
     margin: 10px auto;
-    filter: blur(0em);
-    transition: filter 3s;
+    filter: blur(0.5em);
 }
 
