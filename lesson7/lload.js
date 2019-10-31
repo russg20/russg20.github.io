@@ -10,6 +10,9 @@ function firstLoadImg(img) {
         return;
     }
     img.src = src;
+    img.onload = () => {
+        img.removeAttribute("data-src");
+    }
 };
 
 const imgObserve = new IntersectionObserver((entries, imgObserve) => {
