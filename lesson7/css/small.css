@@ -208,8 +208,8 @@ footer a {
 .galleryImg img[data-src] {
     filter: blur(0.5em);
 }
-.galleryHead {
+.galleryImg .galleryHead {
     justify-content: left;
     margin-left: 10px;
-    grid-column: span 3;
+    grid-column: 1/-1;
 }
