@@ -208,3 +208,6 @@ footer a {
 .galleryImg img[data-src] {
     filter: blur(0.5em);
 }
+.galleryHead {
+    text-align: left;
+}
