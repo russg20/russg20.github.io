@@ -199,5 +199,9 @@ footer a {
 .galleryImg img {
     border: 2px solid whitesmoke;
     margin: 0;
-
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.galleryImg img[data-src] {
+    filter: blur(0.5em);
 }
