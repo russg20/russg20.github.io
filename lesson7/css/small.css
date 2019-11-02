@@ -189,12 +189,15 @@ footer a {
     justify-items: center;
     grid-gap: 10px;
 }
-.galleryImg figure {
+.galleryImg picture {
     background-color: whitesmoke;
     border: 1px solid black;
 }
-.galleryImg figcaption {
-    padding: 0.75rem;
+.gallerypict {
+    width: 350px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 .galleryImg img {
     border: 2px solid whitesmoke;
