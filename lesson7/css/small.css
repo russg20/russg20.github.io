@@ -189,7 +189,7 @@ footer a {
     justify-items: center;
     grid-gap: 10px;
 }
-.galleryImg picture {
+.galleryImg figure {
     background-color: whitesmoke;
     border: 1px solid black;
 }
