@@ -191,6 +191,7 @@ footer a {
 }
 .galleryImg picture {
     background-color: whitesmoke;
+    border: 1px solid black;
 }
 .galleryImg figcaption {
     padding: 0.75rem;
