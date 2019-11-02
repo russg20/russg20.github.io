@@ -1,0 +1,185 @@
+body {
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+header, footer {
+    background-color: #57bc90;
+    color: black;
+    padding: 0.5rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 70px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+.heading h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0 15px;
+}
+h2 {
+    font-size: 1.35rem;
+    text-align: center;
+}
+.motto {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-left: 18px;
+}
+nav {
+    background-color: #015249;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navlist li:first-child {
+    display: block;
+}
+.navlist li {
+    display: none;
+}
+.navlist .active {
+    color: yellow;
+}
+.navlist a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: #77c9d4;
+    color: black;
+}
+.responsive li {
+    display: block;
+}
+footer, main {
+    max-width: 750px;
+    margin: 0 auto;
+}
+main {
+    background-color: #a5a5af;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.herocontainer {
+    margin: 10px auto;
+    position: relative;
+}
+.herocontainer img {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+}
+.summary h3 {
+    font-size: 1rem;
+}
+.summary {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background: #015249;
+    border: 1px solid black;
+    opacity: 0.9;
+    color: white;
+    padding: 1rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
+}
+.fivedayhead {
+    text-align: center;
+    font-size: 1rem;
+}
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 600px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0 auto;
+}
+.forecast div {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    justify-content: center;
+    display: grid;
+}
+.fcastDay {
+    background-color: #77c9d4;
+    color: black;
+    padding: 0.25rem;
+}
+.wimage {
+    margin: 10px auto;
+}
+.dailytemp {
+    padding-bottom: 0.25rem;
+}
+.fiveday {
+    display: none;
+    padding-bottom: 20px;
+}
+.bannerad {
+    background-color: coral;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+}
+.hiddenban {
+    display: none;
+}
+article {
+    background-color: whitesmoke;
+    display: block;
+    overflow: auto;
+    margin: 20px 0;
+}
+article img {
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+}
+article h3, h4 {
+    margin-left: 15px;
+}
+article p {
+    margin: 20px 15px;
+}
+.contactinfo {
+    background-color: whitesmoke;
+    margin: 20px 0;
+    text-align: center;
+    display: block;
+    overflow: auto;
+}
+.contactname {
+    font-weight: bold;
+}
+.contactinfo img {
+    display: none;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: black;
+}
