@@ -208,7 +208,7 @@ footer a {
 .galleryImg img[data-src] {
     filter: blur(0.5em);
 }
-.galleryImg .galleryHead {
+.galleryImg #galleryHead {
     justify-items: left;
     margin-left: 10px;
     grid-column: 1/-1;
