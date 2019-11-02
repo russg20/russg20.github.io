@@ -211,5 +211,5 @@ footer a {
 .galleryHead {
     justify-content: left;
     margin-left: 10px;
-    grid-column: 1/-1;
+    grid-column: span 3;
 }
