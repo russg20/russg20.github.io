@@ -189,8 +189,10 @@ footer a {
     justify-items: center;
     grid-gap: 10px;
 }
-.galleryImg figcaption {
+.galleryImg picture {
     background-color: whitesmoke;
+}
+.galleryImg figcaption {
     padding: 0.75rem;
 }
 .galleryImg img {
