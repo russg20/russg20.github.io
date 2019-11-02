@@ -209,7 +209,7 @@ footer a {
     filter: blur(0.5em);
 }
 .galleryImg .galleryHead {
-    justify-content: left;
+    justify-items: left;
     margin-left: 10px;
     grid-column: 1/-1;
 }
