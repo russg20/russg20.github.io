@@ -37,4 +37,7 @@
         margin-top: 15px;
         margin-bottom: 10px;
     }
+    .galleryImg {
+        grid-template-columns: 1fr 1fr;
+    }
 }

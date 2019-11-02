@@ -187,4 +187,13 @@ footer a {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    grid-gap: 10px;
+}
+.galleryImg figcaption {
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+.galleryImg img {
+    border: 2px solid whitesmoke;
+
 }

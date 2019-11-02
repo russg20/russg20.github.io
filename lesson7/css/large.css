@@ -34,5 +34,7 @@
     .fivedayhead {
         font-size: 1.4rem;
     }
-    
+    .galleryImg {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
