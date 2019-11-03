@@ -40,4 +40,7 @@
     .galleryImg {
         grid-template-columns: 1fr 1fr;
     }
+    #galleryHead {
+        grid-column: span 2;
+    }
 }

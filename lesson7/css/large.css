@@ -40,4 +40,7 @@
     .galleryImg div:hover {
         box-shadow: 0 0 50px #333;
     }
+    #galleryHead {
+        grid-column: span 3;
+    }
 }
