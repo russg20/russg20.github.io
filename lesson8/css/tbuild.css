@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+caption {
+    background-color: #7fb9c2;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+td, th {
+    border: 1px solid gray;
+    padding: 10px;
+}
+th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+}
+td {
+    text-align: center;
+}
+tbody td {
+    background-color: #e7f0ed;
+}
+tr:nth-child(2n) {
+    background-color: #e7ffed;
+}
+#novGoal {
+    background-color: #628ca6;
+    color: white
+}
