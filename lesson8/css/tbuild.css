@@ -26,10 +26,10 @@ th {
 td {
     text-align: center;
 }
-tbody td {
+tr td {
     background-color: #e7f0ed;
 }
-tbody:nth-child(2n) td {
+tr:nth-child(even) td {
     background-color: #e7ffed;
 }
 #novGoal {
