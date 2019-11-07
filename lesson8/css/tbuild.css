@@ -5,6 +5,7 @@ body {
 table {
     border-collapse: collapse;
     border: 1px solid rgb(196, 194, 194);
+    margin: 20px auto;
 }
 caption {
     background-color: #7fb9c2;
@@ -15,7 +16,7 @@ caption {
 }
 td, th {
     border: 1px solid rgb(196, 194, 194);
-    padding: 8px 15px;
+    padding: 8px 12px;
 }
 th {
     background-color: #628ca6;
