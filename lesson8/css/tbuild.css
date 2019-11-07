@@ -9,8 +9,9 @@ table {
 caption {
     background-color: #7fb9c2;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
+    padding: 10px;
 }
 td, th {
     border: 1px solid rgb(196, 194, 194);
