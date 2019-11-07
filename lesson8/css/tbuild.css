@@ -15,7 +15,7 @@ caption {
 }
 td, th {
     border: 1px solid rgb(196, 194, 194);
-    padding: 8px;
+    padding: 8px 15px;
 }
 th {
     background-color: #628ca6;
@@ -36,7 +36,7 @@ tr:nth-child(even) td {
     background-color: #628ca6;
     color: white
 }
-tfoot {
+tfoot td {
     background-color: #7fb9c2;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
 }
