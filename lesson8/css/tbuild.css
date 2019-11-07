@@ -4,7 +4,7 @@ body {
 }
 table {
     border-collapse: collapse;
-    border: 1px solid gray;
+    border: 1px solid rgb(196, 194, 194);
 }
 caption {
     background-color: #7fb9c2;
@@ -13,7 +13,7 @@ caption {
     color: black;
 }
 td, th {
-    border: 1px solid gray;
+    border: 1px solid rgb(196, 194, 194);
     padding: 10px;
 }
 th {
@@ -27,10 +27,13 @@ td {
 tbody td {
     background-color: #e7f0ed;
 }
-tr:nth-child(2n) {
+tbody:nth-child(2n) td {
     background-color: #e7ffed;
 }
 #novGoal {
     background-color: #628ca6;
     color: white
+}
+tfoot {
+    background-color: #7fb9c2
 }
