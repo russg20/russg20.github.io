@@ -14,7 +14,7 @@ caption {
     font-size: 1.8rem;
     color: black;
     padding: 10px;
-    box-shadow: 10px 0 10px #628ca6;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 td, th {
     border: 1px solid rgb(196, 194, 194);
