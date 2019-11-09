@@ -235,6 +235,7 @@ form label.above input {
 form label.nextto {
     display: block;
     padding: 1rem 0;
+    margin-left: 2%;
 }
 form label.nextto input, form label.nextto select {
     padding: 0.75rem;
@@ -244,7 +245,7 @@ form label.nextto input, form label.nextto select {
 form label.userDanger {
     display: block;
     padding: 0.75rem 5px;
-    margin: 10px 5px;
+    margin: 10px 2%;
 }
 form textarea {
     width: 95%;
