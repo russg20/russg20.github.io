@@ -1,0 +1,46 @@
+@media only screen and (min-width: 60em) {
+    .heading h1 {
+        font-size: 2.5rem;
+    }
+    header img {
+        width: 90px;
+    }
+    .motto {
+        font-size: 1rem;
+    }
+    .navlist {
+        display: flex;
+    }
+    .navlist li:first-child {
+        display: none;
+    }
+    .navlist li {
+        flex: 1 1 100%;
+        display: block;
+    }
+    h2 {
+        font-size: 1.65rem;
+    }
+    footer, main {
+        max-width: 1120px;
+    }
+    .summary h3 {
+        font-size: 1.4rem;
+    }
+    .summary {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .fivedayhead {
+        font-size: 1.4rem;
+    }
+    .galleryImg {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .galleryImg div:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    #galleryHead {
+        grid-column: span 3;
+    }
+}

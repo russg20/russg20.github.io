@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery | Weather-R-Us</title>
+    <meta name="description" content="A gallery of weather related images for the Weather-R-Us website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weatherlogo.jpg" alt="Weather-R-Us Logo">
+        </picture>
+        <section class="heading">
+            <h1>Weather-R-Us</h1>
+            <div class="motto">We are your source for everything weather in Southeast Idaho!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navlist">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-8.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+
+        <section class="galleryImg">
+                <h2 id="galleryHead">Weather Gallery</h2>
+        
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/frozen_twigs.jpg" alt="Ice encased twigs">
+                    Ice encased the trees in recent ice storm</div>
+
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/hurricane.jpg" alt="A view of a hurricane from space">
+                    Will this hurricane make it to Idaho?</div>
+
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/lightning.jpg" alt="Lightning storm">
+                    Last week's thunderstorm was grand!</div>
+
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/rainbow.jpg" alt="Rainbow after the storm">
+                    The rainbow after the storm</div>
+        
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/rainy_day.jpg" alt="A rainy day in town">
+                    It's a rainy day in downtown Preston</div>
+
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/snow.jpg" alt="Snowy trees">
+                    The quiet after the snow storm</div>
+
+                <div class="gallerypict"><img src="images/placeholder.jpg"  data-src="images/sunny_day.jpg" alt="Sun shining through clouds">
+                    It's a beautiful day in the neighborhood!</div>
+            
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="tornado touching down">
+                    A tornado touching down in Soda Springs</div>
+                <div class="gallerypict"><img src="images/placeholder.jpg" data-src="images/fall_leaves.jpg" alt="Colorful Fall Leaves">
+                    A crisp Fall day in Fish Haven</div>
+        </section>
+    </main>
+    <footer>
+        <span>&copy; 2019</span>
+        <span> | <a href="#">Terms of use</a> | Ginger Russ</span><br>
+        <span id="localDate"></span>
+    </footer>
+    
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/gallerylazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+</body>
+</html>
