@@ -43,7 +43,10 @@
     #galleryHead {
         grid-column: span 3;
     }
-    form label.nextto {
+    form label.userDanger {
         padding: 0.4rem 0;
+    }
+    form textarea {
+        max-width: 40rem;
     }
 }
