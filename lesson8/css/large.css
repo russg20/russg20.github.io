@@ -44,7 +44,7 @@
         grid-column: span 3;
     }
     form label.userDanger {
-        padding: 0.4rem 0;
+        padding: 0.3rem 0;
     }
     form textarea {
         max-width: 40rem;
