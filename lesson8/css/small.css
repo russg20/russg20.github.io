@@ -220,6 +220,7 @@ form legend {
 form label.above, form div {
     display: block;
     padding-top: 1rem;
+    padding-left: 2%;
     font-size: 18px;
 }
 form label.above input {
