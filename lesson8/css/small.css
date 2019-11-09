@@ -241,6 +241,15 @@ form label.nextto input, form label.nextto select {
     width: 100%;
     max-width: 20rem;
 }
+form label.userDanger {
+    padding: 0.75rem 5px;
+}
+form textarea {
+    width: 95%;
+    max-width: 20rem;
+    height: 8rem;
+    margin: 0.5rem 2%;
+}
 form input.subButton {
     border: none;
     background-color: salmon;
