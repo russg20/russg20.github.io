@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gallery | Weather-R-Us</title>
-    <meta name="description" content="A gallery of weather related images for the Weather-R-Us website">
+    <title>Storm Center | Weather-R-Us</title>
+    <meta name="description" content="A site to report storms you are experiencing in Southeast Idaho">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -33,12 +33,15 @@
         </ul>
     </nav>
     <main>
+        <h3>Storm Reporting Tool</h3>
         <form method="GET" action="thanks.html">
-            <label class="above">Full Name:* <input type="text" name="fullName" pattern="[A-Za-z]{5,}" required></label>
-            <label class="above">Email: <input type="email" name="email" placeholder="someone@gmail.com"></label>
-            <label class="above">Phone:* <input type="tel" name="phone" placeholder="1237651234" required></label>
-            <label class="above">Zip code:* <input type="number" name="zipCode" required></label>
-
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="above">Full Name:* <input type="text" name="fullName" pattern="[A-Za-z]{5,}" required></label>
+                <label class="above">Email: <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="above">Phone:* <input type="tel" name="phone" placeholder="1237651234" required></label>
+                <label class="above">Zip code:* <input type="number" name="zipCode" required></label>
+            </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="nextto">Storm Date: <input type="date" name="stormDate"></label>
