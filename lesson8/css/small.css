@@ -236,7 +236,7 @@ form label.nextto {
     display: block;
     padding: 1rem 0;
 }
-form label.nextto input {
+form label.nextto input, form label.nextto select {
     padding: 0.75rem;
     width: 100%;
     max-width: 20rem;
