@@ -43,4 +43,7 @@
     #galleryHead {
         grid-column: span 3;
     }
+    form label.nextto {
+        padding: 0.4rem 0;
+    }
 }

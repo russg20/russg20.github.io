@@ -208,3 +208,46 @@ footer a {
 .galleryImg img[data-src] {
     filter: blur(0.5em);
 }
+form fieldset {
+    margin: 2em 0;
+    border: 1px solid black;
+    padding: 0.5rem 2%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+form label.above, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 18px;
+}
+form label.above input {
+    display: block;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+form label.nextto {
+    display: block;
+    padding: 0.75rem 0;
+}
+form input.subButton {
+    border: none;
+    background-color: salmon;
+    color: black;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+form label.above input:required {
+    border-left: 8px solid red;
+}
+form label.above input:required:valid {
+    border-left: 8px solid green;
+}

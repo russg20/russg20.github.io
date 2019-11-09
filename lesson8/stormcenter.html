@@ -34,15 +34,15 @@
     </nav>
     <main>
         <form method="GET" action="thanks.html">
-            <label class="userInfo">Full Name:* <input type="text" name="fullName" pattern="[A-Za-z]{5,}" required></label>
-            <label class="userInfo">Email: <input type="email" name="email" placeholder="someone@gmail.com"></label>
-            <label class="userInfo">Phone:* <input type="tel" name="phone" pattern="[0-9]" placeholder="1237651234" required></label>
-            <label class="userInfo">Zip code:* <input type="number" name="zipCode" required></label>
+            <label class="above">Full Name:* <input type="text" name="fullName" pattern="[A-Za-z]{5,}" required></label>
+            <label class="above">Email: <input type="email" name="email" placeholder="someone@gmail.com"></label>
+            <label class="above">Phone:* <input type="tel" name="phone" pattern="[0-9]" placeholder="1237651234" required></label>
+            <label class="above">Zip code:* <input type="number" name="zipCode" required></label>
 
             <fieldset>
                 <legend>Storm Information</legend>
-                <label class="stormInfo">Storm Date: <input type="date" name="stormDate"></label>
-                <label class="stormInfo">Storm Type: <input list="stormList" name="stormType"></label>
+                <label class="nextto">Storm Date: <input type="date" name="stormDate"></label>
+                <label class="nextto">Storm Type: <input list="stormList" name="stormType"></label>
                 <datalist id="stormList">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -50,7 +50,7 @@
                     <option value="Thunderstorm">
                     <option value="Tornado">
                 </datalist>
-                <label class="stormInfo">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <label class="nextto">Storm Severity: &nbsp;&nbsp;
                     <input type="range" id="sSeverity" name="sSeverity" value="5" min="1" max="10" step="1" 
                     list="scaleMarks" oninput="severityRating(this.value)" onchange="severityRating(this.value)">
                         <span id="yourRating">5</span>
@@ -68,7 +68,7 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-                <label class="stormInfo">Storm Region:
+                <label class="nextto">Storm Region:
                     <select name="sRegion">
                         <option value="" disabled>Select Region... </option>
                         <option value="preston">Preston</option>
@@ -80,16 +80,16 @@
             <fieldset>
                 <legend>User Danger Level</legend>
                 <div>Are you in danger?</div>
-                <label class="userDanger"><input type="radio" name="danger" value="yes">Yes</label>
-                <label class="userDanger"><input type="radio" name="danger" value="no">No</label>
-                <label class="userDanger"><input type="radio" name="danger" value="maybe">Maybe</label>
+                <label class="nextto"><input type="radio" name="danger" value="yes">Yes</label>
+                <label class="nextto"><input type="radio" name="danger" value="no">No</label>
+                <label class="nextto"><input type="radio" name="danger" value="maybe">Maybe</label>
             </fieldset>
             <fieldset>
                 <legend>Additional Information or Comments</legend>
                 <div>Please enter additional information below.</div>
                 <textarea name="comments" placeholder="Enter comments here..."></textarea>
             </fieldset>
-
+            <input type="submit" value="Report a Storm" class="subButton">
         </form>
         
     </main>
