@@ -242,7 +242,9 @@ form label.nextto input, form label.nextto select {
     max-width: 20rem;
 }
 form label.userDanger {
+    display: block;
     padding: 0.75rem 5px;
+    margin: 10px 5px;
 }
 form textarea {
     width: 95%;
