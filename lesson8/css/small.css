@@ -270,6 +270,7 @@ form label.above input:required:valid {
     border-left: 8px solid green;
 }
 #thankyoutext {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
+    margin-bottom: 20px;
 }
