@@ -9,7 +9,7 @@ h1 {
 main {
     background-color: white;
     border: 1px solid lightgray;
-    box-shadow: 15px 15px 10px rgb(97, 105, 112);
+    box-shadow: 15px 15px 10px 10px rgb(97, 105, 112);
     padding: 2rem;
 }
 .cards {
@@ -28,14 +28,17 @@ section {
 section h2 {
     color: rgb(103, 7, 194);
     line-height: 1.5rem;
-    margin: -3px;
+    margin: 0;
 }
 section p {
     line-height: 1rem;
-    margin: -3px;
+    margin: 0;
 }
 section img {
     max-width: 12em;
+}
+footer {
+    margins: 20px;
 }
 
 
