@@ -12,6 +12,7 @@ main {
     box-shadow: 15px 15px 10px 20px rgb(97, 105, 112);
     padding: 2rem;
     max-width: 1080px;
+    margin: 0 auto;
 }
 .cards {
     display: grid;
