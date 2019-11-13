@@ -28,11 +28,11 @@ section {
 section h2 {
     color: rgb(103, 7, 194);
     line-height: 1.5rem;
-    margin: -10px;
+    margin: -3px;
 }
 section p {
     line-height: 1rem;
-    margin: -10px;
+    margin: -3px;
 }
 section img {
     max-width: 12em;
