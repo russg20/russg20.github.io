@@ -41,6 +41,8 @@ section img {
 }
 footer {
     margins: 20px;
+    padding: 1.25rem;
+    text-align: center;
 }
 
 
