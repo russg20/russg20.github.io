@@ -9,7 +9,7 @@ h1 {
 main {
     background-color: white;
     border: 1px solid lightgray;
-    box-shadow: 5px 10px 10px 20px rgb(97, 105, 112);
+    box-shadow: 5px 5px 10px 20px rgb(97, 105, 112);
     padding: 2rem;
     max-width: 1080px;
     margin: 0 auto;
@@ -41,7 +41,7 @@ section img {
 }
 footer {
     margins: 20px;
-    padding: 1.25rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
