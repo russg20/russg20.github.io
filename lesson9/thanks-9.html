@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storm Center | Weather-R-Us</title>
+    <meta name="description" content="A site to report storms you are experiencing in Southeast Idaho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weatherlogo.jpg" alt="Weather-R-Us Logo">
+        </picture>
+        <section class="heading">
+            <h1>Weather-R-Us</h1>
+            <div class="motto">We are your source for everything weather in Southeast Idaho!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navlist">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter-9.html" class="active">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Thank you!</h2>
+        <div id="thankyoutext">You have reported this storm successfully!</div>        
+    </main>
+    <footer>
+        <span>&copy; 2019</span>
+        <span> | <a href="#">Terms of use</a> | Ginger Russ</span><br>
+        <span id="localDate"></span>
+    </footer>
+    
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/gallerylazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+</body>
+</html>
