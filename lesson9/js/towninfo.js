@@ -15,7 +15,7 @@ fetch(requestURL)
             if (towns[i].name=='Preston' || towns[i].name=='Fish Haven' || towns[i].name=='Soda Springs') {
                 let card = document.createElement('section');
                 let h1 = document.createElement('h1');
-                let townMotto = document.createElement('h3');
+                let townMotto = document.createElement('h4');
                 let foundYear = document.createElement('p');
                 let pop = document.createElement('p');
                 let rainFall = document.createElement('p');
