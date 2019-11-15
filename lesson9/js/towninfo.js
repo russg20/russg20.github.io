@@ -12,7 +12,7 @@ fetch(requestURL)
 
                 
 
-            if (towns.name==='Preston' || towns.name==='Fish Haven' || towns.name==='Soda Springs') {
+            if (towns.name=='Preston' || towns.name=='Fish Haven' || towns.name=='Soda Springs') {
                 let card = document.createElement('section');
                 let h1 = document.createElement('h1');
                 let townMotto = document.createElement('h3');
