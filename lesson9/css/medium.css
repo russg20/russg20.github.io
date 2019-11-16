@@ -43,15 +43,14 @@
     #galleryHead {
         grid-column: span 2;
     }
-    .homepage {
+    .cityinfo {
         display: flex;
         flex-wrap: wrap;
     }
-    div.cityinfo {
+    main section {
         display: flex;
-        flex-direction: columns;
     }
-    div:nth-child(odd) {
+    section:nth-child(odd) {
         flex-direction: row-reverse;
     }
     
