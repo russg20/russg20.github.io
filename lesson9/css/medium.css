@@ -43,4 +43,16 @@
     #galleryHead {
         grid-column: span 2;
     }
+    .cityinfo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cityinfo section {
+        display: flex;
+        flex-direction: columns;
+    }
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
 }
