@@ -286,7 +286,10 @@ main section {
     padding: 10px;
 }
 .cityinfo h2 {
-    margin: 2px;
+    margin-bottom: 0;
+}
+.cityinfo h6 {
+    margin-top: 2px;
 }
 .cityinfo img {
     width: 90%;
