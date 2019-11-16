@@ -55,6 +55,9 @@
         flex-direction: row-reverse;
     }
     .cityinfo img {
-        max-width: 200px;
+        max-width: 275px;
+    }
+    .cityinfo h2, h4, p {
+        display: block;
     }
 }
