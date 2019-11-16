@@ -56,4 +56,7 @@
     main section {
         display: block;
     }
+    .cityinfo img {
+        width: 350px;
+    }
 }
