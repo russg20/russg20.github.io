@@ -49,4 +49,8 @@
     form textarea {
         max-width: 40rem;
     }
+    .cityinfo section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
