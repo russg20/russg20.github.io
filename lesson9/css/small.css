@@ -281,6 +281,9 @@ main section {
     background-color: #77c9d4;
     display: block;
     justify-items: center;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
 }
 .cityinfo img {
     width: 90%;
