@@ -298,3 +298,10 @@ main section {
     justify-items: center;
     padding: 5px;
 }
+.weatherInterest article {
+    background-color: whitesmoke;
+}
+.weatherInterest img {
+    justify-items: center;
+    width: 200px;
+}
