@@ -276,13 +276,11 @@ form label.above input:required:valid {
 }
 .cityinfo {
     display: grid;
-    grid-template-columns: 1fr;
 }
-.cityinfo section {
+main section {
     background-color: #77c9d4;
-}
-.cityinfo h2, h4, p {
-    text-align: center;
+    display: block;
+    justify-items: center;
 }
 .cityinfo picture img {
     width: 90%;
