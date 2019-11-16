@@ -14,7 +14,7 @@ fetch(requestURL)
 
             if (towns[i].name=='Preston' || towns[i].name=='Fish Haven' || towns[i].name=='Soda Springs') {
                 let card = document.createElement('section');
-                let h1 = document.createElement('h1');
+                let townName = document.createElement('h2');
                 let townMotto = document.createElement('h4');
                 let foundYear = document.createElement('p');
                 let pop = document.createElement('p');
@@ -22,8 +22,8 @@ fetch(requestURL)
                 let townPhoto = document.createElement('img');
 
 
-                h1.textContent = towns[i].name;
-                card.appendChild(h1);
+                townName.textContent = towns[i].name;
+                card.appendChild(townName);
             
                 townMotto.textContent = towns[i].motto;
                 card.appendChild(townMotto);
