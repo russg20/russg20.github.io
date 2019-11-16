@@ -281,9 +281,11 @@ form label.above input:required:valid {
     background-color: #77c9d4;
 }
 .cityinfo h2, h4, p {
+    display: block;
     text-align: center;
 }
 .cityinfo img {
     width: 90%;
+    max-width: 150px;
     margin: 0 auto;
 }
