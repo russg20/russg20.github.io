@@ -19,23 +19,26 @@ fetch(requestURL)
                 let foundYear = document.createElement('p');
                 let pop = document.createElement('p');
                 let rainFall = document.createElement('p');
+                let towndata = document.createElement('div');
                 let townPhoto = document.createElement('img');
 
 
                 townName.textContent = towns[i].name;
-                card.appendChild(townName);
+                towndata.appendChild(townName);
             
                 townMotto.textContent = towns[i].motto;
-                card.appendChild(townMotto);
+                towndata.appendChild(townMotto);
 
                 foundYear.textContent = 'Year Founded: ' + towns[i].yearFounded;
-                card.appendChild(foundYear);
+                towndata.appendChild(foundYear);
 
                 pop.textContent = 'Population: ' + towns[i].currentPopulation;
-                card.appendChild(pop);
+                towndata.appendChild(pop);
 
                 rainFall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-                card.appendChild(rainFall);
+                towndata.appendChild(rainFall);
+
+                card.appendChild(towndata);
 
                 townPhoto.setAttribute('src', 'images/' + towns[i].photo);
                 townPhoto.setAttribute('alt', 'Photo of ' + towns[i].name);
