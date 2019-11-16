@@ -285,6 +285,9 @@ main section {
     margin: 15px auto;
     padding: 10px;
 }
+.cityinfo h2 {
+    margin: 2px;
+}
 .cityinfo img {
     width: 90%;
     max-width: 250px;
