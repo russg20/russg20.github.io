@@ -296,4 +296,5 @@ main section {
     max-width: 250px;
     margin: 0 auto;
     justify-items: center;
+    padding: 5px;
 }
