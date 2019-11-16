@@ -53,11 +53,8 @@
     section:nth-child(odd) {
         flex-direction: row-reverse;
     }
-    
     .cityinfo img {
         max-width: 275px;
-    }
-    main div.cityinfo h2, h4, p {
-        display: block;
+        margin: 10px auto;
     }
 }
