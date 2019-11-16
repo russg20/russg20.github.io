@@ -274,10 +274,10 @@ form label.above input:required:valid {
     text-align: center;
     margin-bottom: 20px;
 }
-.cityinfo {
+.homepage {
     display: block;
 }
-.cityinfo section {
+div.cityinfo {
     background-color: #77c9d4;
 }
 .cityinfo h2, h4, p {
