@@ -57,7 +57,7 @@
     .cityinfo img {
         max-width: 275px;
     }
-    .cityinfo h2, h4, p {
+    main div.cityinfo h2, h4, p {
         display: block;
     }
 }
