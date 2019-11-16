@@ -37,7 +37,7 @@ fetch(requestURL)
                 rainFall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
                 card.appendChild(rainFall);
 
-                townPhoto.setAttribute('src', 'images/'towns[i].photo);
+                townPhoto.setAttribute('src', 'images/' + towns[i].photo);
                 townPhoto.setAttribute('alt', 'Photo of ' + towns[i].name);
                 card.appendChild(townPhoto);
 
