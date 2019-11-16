@@ -19,6 +19,7 @@ fetch(requestURL)
                 let foundYear = document.createElement('p');
                 let pop = document.createElement('p');
                 let rainFall = document.createElement('p');
+                let card2 = document.createElement('picture');
                 let townPhoto = document.createElement('img');
 
 
@@ -39,9 +40,10 @@ fetch(requestURL)
 
                 townPhoto.setAttribute('src', 'images/' + towns[i].photo);
                 townPhoto.setAttribute('alt', 'Photo of ' + towns[i].name);
-                card.appendChild(townPhoto);
+                card2.appendChild(townPhoto);
 
                 document.querySelector('div.cityinfo').appendChild(card);
+                document.querySelector('div.cityinfo').appendChild(card2);
             }
         }
     });

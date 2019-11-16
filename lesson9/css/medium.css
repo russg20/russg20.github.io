@@ -47,13 +47,14 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .cityinfo section {
+    .cityinfo picture {
         display: flex;
         flex-direction: columns;
     }
-    section:nth-child(odd) {
+    picture:nth-child(odd) {
         flex-direction: row-reverse;
     }
+    
     .cityinfo img {
         max-width: 275px;
     }
