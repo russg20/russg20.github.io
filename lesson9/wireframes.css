@@ -1,0 +1,11 @@
+main {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+main h4 {
+    text-align: center;
+}
+main img {
+    justify-items: center;
+}
