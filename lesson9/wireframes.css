@@ -9,4 +9,5 @@ main h4 {
 main div img {
     display: grid;
     justify-items: center;
+    margin: 0 auto;
 }
