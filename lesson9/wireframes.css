@@ -6,6 +6,7 @@ main {
 main h4 {
     text-align: center;
 }
-main img {
+main div img {
+    display: grid;
     justify-items: center;
 }
