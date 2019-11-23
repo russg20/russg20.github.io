@@ -131,8 +131,9 @@ main {
 .wimage {
     margin: 10px auto;
 }
-.dailytemp {
+section div.dailytemp {
     padding-bottom: 0.25rem;
+    display: inline;
 }
 .fiveday {
     display: none;
