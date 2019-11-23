@@ -43,7 +43,7 @@ fetch(forecastURL)
                 document.getElementById(dayOfWeek).textContent = weekday;
 
                 const imgSource = 'https://openweathermap.org/img/w/' + jsforecastObject.list[i].weather[0].icon + '.png';
-                const descrip = jsforecastObject.list[i].weather.description;
+                const descrip = jsforecastObject.list[i].weather[0].description;
             
                 let icon = 'wimage' + num;
                 document.getElementById(icon).setAttribute('src', imgSource);
