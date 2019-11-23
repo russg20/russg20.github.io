@@ -4,7 +4,7 @@ const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsweatherObject) => {
-        console.log(jsweatherObject);
+        //console.log(jsweatherObject);
 
         document.getElementById('currweath').textContent = jsweatherObject.weather[0].main;
         document.getElementById('hightemp').textContent = jsweatherObject.main.temp_max;
@@ -15,7 +15,7 @@ fetch(weatherURL)
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsforecastObject) => {
-        console.log(jsforecastObject);
+        //console.log(jsforecastObject);
 
         let num = 0;
         
