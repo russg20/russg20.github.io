@@ -17,13 +17,13 @@ fetch(forecastURL)
     .then((jsforecastObject) => {
         console.log(jsforecastObject);
 
+        let num = 0;
         
         for(i=0; i<jsforecastObject.list.length; i++) {
             let str = jsforecastObject.list[i].dt_txt;
-            let num = 0
 
             if (str.includes('18:00:00')) {
-                let day = new Date()
+                let day = new Date(str);
                 let dayOpt = {weekday: 'short'};
                 let weekday = day.toLocaleDateString('en-US', dayOpt);
                 let dayOfWeek = 'fcday' + num;
