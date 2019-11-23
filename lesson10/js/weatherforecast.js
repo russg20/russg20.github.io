@@ -17,16 +17,29 @@ fetch(forecastURL)
     .then((jsforecastObject) => {
         console.log(jsforecastObject);
 
-        for(i=0; i<=jsforecastObject.list.length; i++) {
-            let str = jsforecastObject.list[i].main.dt_txt;
-            if (str.includes('18:00:00')) {
-                const imgSource = 'https://openweathermap.org/img/w/' + jsforecastObject.list[i].weather.icon + '.png';
-                const descrip = jsforecastObject.list[i].weather.description;
-                let num =+ 1
+        
+        for(i=0; i<jsforecastObject.list.length; i++) {
+            let str = jsforecastObject.list[i].dt_txt;
+            let num = 0
 
-                document.getElementById('wimage' + num).setAttribute('src', imgSource);
-                document.getElementById('wimage' + num).setAttribute('alt', descrip);
-                document.getElementById('dtemp' + num).textContent = jsforecastObject.list[i].main.temp;
+            if (str.includes('18:00:00')) {
+                let day = new Date()
+                let dayOpt = {weekday: 'short'};
+                let weekday = day.toLocaleDateString('en-US', dayOpt);
+                let dayOfWeek = 'fcday' + num;
+                document.getElementById(dayOfWeek).textContent = weekday;
+
+                const imgSource = 'https://openweathermap.org/img/w/' + jsforecastObject.list[i].weather[0].icon + '.png';
+                const descrip = jsforecastObject.list[i].weather.description;
+            
+                let icon = 'wimage' + num;
+                document.getElementById(icon).setAttribute('src', imgSource);
+                document.getElementById(icon).setAttribute('alt', descrip);
+
+                let dailyTemp = 'dtemp' + num;
+                document.getElementById(dailyTemp).textContent = Math.round(jsforecastObject.list[i].main.temp);
+            
+                num = num + 1;
             }
         }
     })
