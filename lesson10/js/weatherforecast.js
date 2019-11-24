@@ -6,7 +6,7 @@ fetch(weatherURL)
     .then((jsweatherObject) => {
         //console.log(jsweatherObject);
 
-        document.getElementById('currweath').textContent = jsweatherObject.weather[0].main;
+        document.getElementById('currweath').textContent = jsweatherObject.weather[0].description;
         document.getElementById('hightemp').textContent = jsweatherObject.main.temp_max.toFixed();
         document.getElementById('humidity').textContent = jsweatherObject.main.humidity;
         document.getElementById('wspeed').textContent = jsweatherObject.wind.speed.toFixed();
