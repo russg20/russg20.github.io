@@ -1,0 +1,312 @@
+body {
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+header, footer {
+    background-color: #57bc90;
+    color: black;
+    padding: 0.5rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 70px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+.heading h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0 15px;
+}
+h2 {
+    font-size: 1.35rem;
+    text-align: center;
+}
+.motto {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-left: 18px;
+}
+nav {
+    background-color: #015249;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navlist li:first-child {
+    display: block;
+}
+.navlist li {
+    display: none;
+}
+.navlist .active {
+    color: yellow;
+}
+.navlist a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: #77c9d4;
+    color: black;
+}
+.responsive li {
+    display: block;
+}
+footer, main {
+    max-width: 750px;
+    margin: 0 auto;
+}
+main {
+    background-color: #a5a5af;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.herocontainer {
+    margin: 10px auto;
+    position: relative;
+}
+.herocontainer img {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+}
+.summary h3 {
+    font-size: 1rem;
+}
+.summary {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background: #015249;
+    border: 1px solid black;
+    opacity: 0.9;
+    color: white;
+    padding: 1rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
+    display: block;
+}
+.fivedayhead {
+    text-align: center;
+    font-size: 1rem;
+}
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 600px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0 auto;
+}
+.forecast div {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    justify-content: center;
+    display: grid;
+}
+.fcastDay {
+    background-color: #77c9d4;
+    color: black;
+    padding: 0.25rem;
+}
+.wimage {
+    margin: 10px auto;
+}
+section div.dailytemp {
+    padding-bottom: 0.25rem;
+    display: inline;
+}
+.fiveday {
+    display: none;
+    padding-bottom: 20px;
+}
+.bannerad {
+    background-color: coral;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+}
+.hiddenban {
+    display: none;
+}
+article {
+    background-color: whitesmoke;
+    display: block;
+    overflow: auto;
+    margin: 20px 0;
+}
+article img {
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+}
+article h3, h4 {
+    margin-left: 15px;
+}
+article p {
+    margin: 20px 15px;
+}
+.contactinfo {
+    background-color: whitesmoke;
+    margin: 20px 0;
+    text-align: center;
+    display: block;
+    overflow: auto;
+}
+.contactname {
+    font-weight: bold;
+}
+.contactinfo img {
+    display: none;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: black;
+}
+.galleryImg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+}
+.galleryImg div {
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.gallerypict {
+    width: 354px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.galleryImg img {
+    border: 2px solid whitesmoke;
+    margin: 0;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.galleryImg img[data-src] {
+    filter: blur(0.5em);
+}
+form fieldset {
+    margin: 2em 0;
+    border: 1px solid black;
+    padding: 0.5rem 2%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+form label.above, form div {
+    display: block;
+    padding-top: 1rem;
+    padding-left: 2%;
+    font-size: 18px;
+}
+form label.above input {
+    display: block;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+form label.nextto {
+    display: block;
+    padding: 1rem 0;
+    margin-left: 2%;
+}
+form label.nextto input, form label.nextto select {
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.userDanger {
+    display: block;
+    padding: 0.75rem 5px;
+    margin: 10px 2%;
+}
+form textarea {
+    width: 95%;
+    max-width: 20rem;
+    height: 8rem;
+    margin: 0.5rem 2%;
+}
+form input.subButton {
+    border: none;
+    background-color: salmon;
+    color: black;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+form label.above input:required {
+    border-left: 8px solid red;
+}
+form label.above input:required:valid {
+    border-left: 8px solid green;
+}
+#thankyoutext {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cityinfo {
+    display: grid;
+}
+main section {
+    background-color: #77c9d4;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+}
+.cityinfo h2 {
+    margin-bottom: 0;
+}
+.cityinfo h6 {
+    margin-top: 2px;
+}
+.cityinfo img {
+    width: 90%;
+    max-width: 250px;
+    margin: 0 auto;
+    justify-items: center;
+    padding: 5px;
+}
+.weatherInterest article {
+    background-color: whitesmoke;
+}
+.weatherInterest img {
+    justify-items: center;
+    width: 200px;
+}
+main section.fiveday {
+    background-color: #a5a5af;
+}
