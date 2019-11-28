@@ -58,4 +58,28 @@ fetch(forecastURL)
         }
     })
 
-    
+//Collect upcoming events for the city of Preston
+
+const getURLss = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(getURLss)
+    .then((response) => response.json())
+    .then((jsonObjectp) => {
+        const towns = jsonObjectp['towns'];
+        console.log(towns);
+
+        for(i=0; i<towns.length; i++) {
+
+            if(towns[i].name == 'Preston') {
+               let listp = document.createElement('ul');
+               
+               for(k=0; k<towns[i].events.length; k++) {
+                   let listItemp = document.createElement('li');
+                   listItemp.textContent = towns[i].events[k];
+                   listp.appendChild(listItemp);
+               }
+
+               document.querySelector('div.events').appendChild(listp);
+            }
+        }
+    })
