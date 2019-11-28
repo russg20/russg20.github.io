@@ -40,7 +40,7 @@ fetch(forecastURLfh)
             if (strfh.includes('18:00:00')) {
                 let dayfh = new Date(strfh);
                 let dayOptfh = {weekday: 'short'};
-                let weekdayfh = dayss.toLocaleDateString('en-US', dayOptfh);
+                let weekdayfh = dayfh.toLocaleDateString('en-US', dayOptfh);
                 let dayOfWeekfh = 'fcdayfh' + numfh;
                 document.getElementById(dayOfWeekfh).textContent = weekdayfh;
 
