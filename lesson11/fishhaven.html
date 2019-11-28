@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fish Haven | Weather-R-Us</title>
+    <meta name="description" content="The Weather-R-Us site for the city of Fish Haven, Idaho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        
+            <a href="index.html"><img src="images/weatherlogo.jpg" alt="Weather-R-Us Logo"></a>
+        
+        <section class="heading">
+            <h1>Weather-R-Us</h1>
+            <div class="motto">We are your source for everything weather in Southeast Idaho!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navlist">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Fish Haven, Idaho</h2>
+        <div class="herocontainer">
+        
+            <img src="images/fishHavenHero.jpg" alt="Picture of clouds reflected in a lake">
+        
+
+            <section class="summary">
+                <h3><u>Weather Summary   </u></h3>
+                <div>Currently: <span id="currweathfh"></span></div>
+                <div>High: <span id="hightempfh"></span> &#8457;</div>
+                <div>Wind Chill: <span id="windchillfh"> </span></div>
+                <div>Humidity: <span id="humidityfh"></span>&percnt;</div>
+                <div>Wind Speed: <span id="wspeedfh"></span> mph</div>
+            </section>
+        </div>
+        <section class="fiveday">
+            <h3 class="fivedayhead">5-Day Forecast</h3>
+            <div class="forecast">
+                <div class="fcastDay" id="fcdayfh0"></div>
+                <div class="fcastDay" id="fcdayfh1"></div>
+                <div class="fcastDay" id="fcdayfh2"></div>
+                <div class="fcastDay" id="fcdayfh3"></div>
+                <div class="fcastDay" id="fcdayfh4"></div>
+                <div><img id="wimagefh0" src="#" alt="#"></div>
+                <div><img id="wimagefh1" src="#" alt="#"></div>
+                <div><img id="wimagefh2" src="#" alt="#"></div>
+                <div><img id="wimagefh3" src="#" alt="#"></div>
+                <div><img id="wimagefh4" src="#" alt="#"></div>
+                <div class="dailytemp"><span id="dtempfh0"></span>&#8457;</div>
+                <div class="dailytemp"><span id="dtempfh1"></span>&#8457;</div>
+                <div class="dailytemp"><span id="dtempfh2"></span>&#8457;</div>
+                <div class="dailytemp"><span id="dtempfh3"></span>&#8457;</div>
+                <div class="dailytemp"><span id="dtempfh4"></span>&#8457;</div>
+            </div>
+        </section>
+        <section class="townEvents">
+                <h3>Upcoming Events in Fish Haven</h3>
+                <div class="events"> </div>
+        </section>
+        <article>
+            <img src="images/foundersdayimg.jpg" alt="boy playing with leaves">
+            <h3>Winter in the Air</h3>
+            <h4>by Ginger Russ</h4>
+            <p>If you haven’t noticed already, winter appears to have fallen on us quickly.  
+                It seems like only yesterday that children were playing in the park and parents 
+                were wrestling with the mountains of autumn leaves in their yards.  Now we have 
+                snow in the forecast and daily temperatures hover below freezing.  Although winter 
+                conditions are not unusual for our neck of the woods, every year it takes some 
+                adjusting as snow and freezing temperatures become the norm.  Ethel Cowley, a long-time 
+                resident of Preston, commented on the approaching snow, saying that she never gets used 
+                to the cold, wet winters in Preston.  Ethel’s least favorite part of the winter season is 
+                shoveling snow from her walkways and driveway.  She appreciates the help of her neighbors 
+                who offer to do the shoveling for her on those bitter cold mornings when she needs go out.  
+                I’m sure all of us can empathize with Ethel in this matter.  How grateful we are for helpful 
+                neighbors!</p>
+        </article>
+        <section class="contactinfo">
+            <img src="images/prestonmap.jpg" alt="Map of Weather-R-Us location">
+            <h3>Contact Information</h3>
+            <div class="companyname">Weather-R-Us</div>
+            <div class="companyadd">60 N State Street</div>
+            <div class="companyadd">Preston, ID 83263</div><br>
+            <div class="companyadd">&#9742; (208) 845-1192</div>
+            <div class="companyadd">&#128231; office@weatherrus.info</div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Weather data courtesy of OpenWeatherMap.org</p><br>
+        <span>&copy; 2019</span>
+        <span> | <a href="https://openweathermap.org" target="_blank">Attributions</a> | Ginger Russ</span><br>
+        <span id="localDate"></span>
+    </footer>
+    <script src="js/satbreakfastad.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/weatherforecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+    
+    <!-- <script src="js/windchill.js" defer></script> -->
+</body>
+</html>
