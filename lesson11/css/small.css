@@ -312,3 +312,8 @@ main section {
 main section.fiveday {
     background-color: #a5a5af;
 }
+section div.events {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
