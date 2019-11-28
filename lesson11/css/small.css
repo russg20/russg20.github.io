@@ -160,6 +160,7 @@ article img {
     width: 250px;
     margin: 10px auto;
     display: block;
+    padding: 10px;
 }
 article h3, h4 {
     margin-left: 15px;
