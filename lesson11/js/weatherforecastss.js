@@ -81,7 +81,7 @@ fetch(getURLss)
                    listss.appendChild(listItem);
                }
 
-               document.querySelector('events').appendChild(listss);
+               document.querySelector('div.events').appendChild(listss);
             }
         }
     })
