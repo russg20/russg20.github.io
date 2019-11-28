@@ -19,7 +19,7 @@ fetch(weatherURLss)
         console.log("speed=" + speedss);
 
         if(tempss<=50 && speedss>3) {
-            var windChillss = Math.round(35.74 + 0.6215*temp - 35.75*Math.pow(speed, 0.16) + 0.4275*temp*Math.pow(speed, 0.16));
+            var windChillss = Math.round(35.74 + 0.6215*tempss - 35.75*Math.pow(speedss, 0.16) + 0.4275*tempss*Math.pow(speedss, 0.16));
             document.getElementById("windchillss").innerHTML = windChillss.toFixed() + " &#8457;";
         } else {
             document.getElementById("windchillss").textContent = "N/A";
