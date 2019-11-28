@@ -66,7 +66,7 @@ const forecastURLss = 'https://api.openweathermap.org/data/2.5/forecast?id=56079
 fetch(weatherURLss)
     .then((response) => response.json())
     .then((jsweatherObjectss) => {
-        //console.log(jsweatherObjectss);
+        console.log(jsweatherObjectss);
 
         document.getElementById('currweathss').textContent = jsweatherObjectss.weather[0].description;
         document.getElementById('hightempss').textContent = jsweatherObjectss.main.temp_max.toFixed();
@@ -74,9 +74,9 @@ fetch(weatherURLss)
         document.getElementById('wspeedss').textContent = jsweatherObjectss.wind.speed.toFixed();
     
         var tempss = document.getElementById("hightempss").textContent;
-        //console.log("temp=" + temp);
+        console.log("temp=" + temp);
         var speedss = document.getElementById("wspeedss").textContent;
-        //console.log("speed=" + speed);
+        console.log("speed=" + speed);
 
         if(tempss<=50 && speedss>s3) {
             var windChillss = Math.round(35.74 + 0.6215*temp - 35.75*Math.pow(speed, 0.16) + 0.4275*temp*Math.pow(speed, 0.16));
@@ -90,7 +90,7 @@ fetch(weatherURLss)
 fetch(forecastURLss)
     .then((response) => response.json())
     .then((jsforecastObjectss) => {
-        //console.log(jsforecastObjectss);
+        console.log(jsforecastObjectss);
 
         let numss = 0;
         
