@@ -6,7 +6,7 @@ const forecastURLfh = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.0
 fetch(weatherURLfh)
     .then((response) => response.json())
     .then((jsweatherObjectfh) => {
-        console.log(jsweatherObjectfh);
+        //console.log(jsweatherObjectfh);
 
         document.getElementById('currweathfh').textContent = jsweatherObjectfh.weather[0].description;
         document.getElementById('hightempfh').textContent = jsweatherObjectfh.main.temp_max.toFixed();
