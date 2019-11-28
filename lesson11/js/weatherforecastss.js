@@ -68,7 +68,7 @@ fetch(getURLss)
     .then((response) => response.json())
     .then((jsonObjectss) => {
         const towns = jsonObjectss['towns'];
-        console.log('towns');
+        console.log(towns);
 
         for(i=0; i<towns.length; i++) {
 
