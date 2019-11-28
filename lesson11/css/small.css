@@ -317,3 +317,6 @@ section div.events {
     display: block;
     text-align: center;
 }
+.townEvents h3 {
+    display: block;
+}
