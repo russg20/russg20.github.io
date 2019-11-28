@@ -14,9 +14,9 @@ fetch(weatherURLss)
         document.getElementById('wspeedss').textContent = jsweatherObjectss.wind.speed.toFixed();
     
         var tempss = document.getElementById("hightempss").textContent;
-        console.log("temp=" + temp);
+        console.log("temp=" + tempss);
         var speedss = document.getElementById("wspeedss").textContent;
-        console.log("speed=" + speed);
+        console.log("speed=" + speedss);
 
         if(tempss<=50 && speedss>s3) {
             var windChillss = Math.round(35.74 + 0.6215*temp - 35.75*Math.pow(speed, 0.16) + 0.4275*temp*Math.pow(speed, 0.16));
@@ -35,7 +35,7 @@ fetch(forecastURLss)
         let numss = 0;
         
         for(j=0; j<jsforecastObjectss.list.length; j++) {
-            let strss = jsforecastObjectss.list[i].dt_txt;
+            let strss = jsforecastObjectss.list[j].dt_txt;
 
             if (strss.includes('18:00:00')) {
                 let dayss = new Date(str);
@@ -44,15 +44,15 @@ fetch(forecastURLss)
                 let dayOfWeekss = 'fcdayss' + numss;
                 document.getElementById(dayOfWeekss).textContent = weekdayss;
 
-                const imgSourcess = 'https://openweathermap.org/img/w/' + jsforecastObjectss.list[i].weather[0].icon + '.png';
-                const descripss = jsforecastObjectss.list[i].weather[0].description;
+                const imgSourcess = 'https://openweathermap.org/img/w/' + jsforecastObjectss.list[j].weather[0].icon + '.png';
+                const descripss = jsforecastObjectss.list[j].weather[0].description;
             
                 let iconss = 'wimagess' + numss;
                 document.getElementById(iconss).setAttribute('src', imgSourcess);
                 document.getElementById(iconss).setAttribute('alt', descripss);
 
                 let dailyTempss = 'dtempss' + numss;
-                document.getElementById(dailyTempss).textContent = Math.round(jsforecastObjectss.list[i].main.temp);
+                document.getElementById(dailyTempss).textContent = Math.round(jsforecastObjectss.list[j].main.temp);
             
                 numss = numss + 1;
             }
