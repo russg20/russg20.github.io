@@ -312,7 +312,7 @@ main section {
 main section.fiveday {
     background-color: #a5a5af;
 }
-section div.events ul {
+section div.events ul li {
     text-decoration: none;
     display: block;
     text-align: center;
