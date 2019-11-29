@@ -323,4 +323,5 @@ section div.events ul li {
 main section.townEvents {
     display: block;
     text-align: center;
+    padding: 0;
 }
