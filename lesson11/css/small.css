@@ -317,7 +317,7 @@ section div.events ul li {
     display: block;
     text-align: center;
 }
-.townEvents h3 {
+main section.townEvents {
     display: block;
     text-align: center;
 }
