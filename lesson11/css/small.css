@@ -156,6 +156,7 @@ article {
     overflow: auto;
     margin: 20px auto;
     border: 1px solid #a5a5af;
+    padding: 15px;
 }
 article img {
     width: 250px;
