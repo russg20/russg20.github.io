@@ -317,6 +317,7 @@ section div.events ul li {
     text-decoration: none;
     display: block;
     text-align: center;
+    padding: 5px 0;
 }
 main section.townEvents {
     display: block;
