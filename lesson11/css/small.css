@@ -318,10 +318,12 @@ section div.events ul li {
     display: block;
     text-align: center;
     padding: 5px 0;
-    padding-inline-start: 0;
 }
 main section.townEvents {
     display: block;
     text-align: center;
     padding: 0;
+}
+section div.events ul {
+    padding-inline-start: 0;
 }
