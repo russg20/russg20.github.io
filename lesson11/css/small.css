@@ -328,7 +328,7 @@ main section.townEvents {
 section div.events ul {
     padding-inline-start: 0;
 }
-footer.footerspace {
+.footerspace {
     padding: 5px;
     line-height: 1.6;
 }
