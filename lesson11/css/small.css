@@ -328,3 +328,9 @@ main section.townEvents {
 section div.events ul {
     padding-inline-start: 0;
 }
+#localDate {
+    padding: 5px;
+}
+main section.companyadd {
+    padding: 5px;
+}
