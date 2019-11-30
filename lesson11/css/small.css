@@ -332,7 +332,7 @@ section div.events ul {
     padding: 5px;
     line-height: 1.6;
 }
-.companyadd {
+.companyadd, .companyname {
     padding: 5px;
     line-height: 1.6;
 }
