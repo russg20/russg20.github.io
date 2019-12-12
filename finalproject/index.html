@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Temple Inn & Suites</title>
+    <meta name="description" content="The landing page for the Temple Inn & Suites website">
+    <meta name="author" content="Ginger Russ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7cMarmelad&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/templeSuitesLogo2.jpg" alt="Logo for the Temple Inn & Suites">
+        <h1 id="heading1">The Temple Inn & Suites</h1>
+        <section class="bookNow">
+            <div id="reserveNow">Make your reservations now!</div>
+            <button type="button" onclick="window.location.href='reservations.html';">Book Now!</button>
+
+        </section>
+    </header>
+    <nav>
+        <ul class="navigmenu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html" >Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div id="come" >Come to the temple and stay with us!</div>
+            <div class="templeactivity">
+                
+                <div class="activityimg"><img src="images/young-family-visits-temple.jpg" alt="Young family visiting the LDS temple"></div>
+                <div class="activityimg"><img src="images/youth-attending-temple.jpg" alt="Youth attending the LDS temple"></div>  
+
+            </div>
+        </div>
+        <section class="featuredTemple">
+            <h2 class="temple">Featured Temple</h2>
+            <div class="templename">Temple: Oklahoma City, Oklahoma</div>
+            <div class="announced">Announced: 14 March 1999</div>
+            <div class="groundbreak">Groundbreaking: 3 July 1999</div>
+            <div class="dedicated">Dedicated: 30 July 2000</div>
+            <div class="miscinfo">Rededicated: 19 May 2019</div>
+        </section>
+        <img src="images/okc_temple_ext.jpg" alt="Oklahoma City LDS Temple">
+        
+    </main>
+    <footer>
+        <h4>Contact Us</h4>
+        <section class="templeinnadd">
+            <p>4800 Montgomery Ln #300</p><br>
+            <p>Bethesda, MD 20814</p><br>
+            <p>Email: reservations@templeinn.org</p>
+        </section>
+        <section class="callNow">
+            <p>Book online or call:</p><br>
+            <p class="phone1">(800) 535-7717</p>
+        </section>
+        <img src="#" alt="#">
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+
+</body>
+</html>

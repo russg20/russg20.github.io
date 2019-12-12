@@ -1,0 +1,24 @@
+@media only screen and (min-width: 40em) {
+
+    .container {
+        width: 100%;
+        max-width: 800px;
+
+    }
+    .templeactivity {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .activityimg:first-of-type {
+        grid-column: 2/span 2;
+        grid-row: 1/span 2;
+    }
+    .activityimg:last-of-type {
+        grid-column: 1/span 2;
+        grid-row: 2/span 2;
+    }
+    #come {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+}
