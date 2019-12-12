@@ -3,12 +3,11 @@
     .container {
         width: 100%;
         max-width: 800px;
-        margin: 0 auto;
 
     }
     .templeactivity {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
     }
     .activityimg:first-of-type {
         grid-column: 2/span 2;
