@@ -21,4 +21,8 @@
         margin-bottom: 10px;
         font-size: 1.2rem;
     }
+    .footerstuff {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
 }
