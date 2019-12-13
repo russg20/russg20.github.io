@@ -2,12 +2,13 @@
 
     .container {
         width: 100%;
-    
+        max-width: 800px;
 
     }
     .templeactivity {
         display: grid;
         margin: 0 auto;
+        grid-template-columns: auto;
     }
     .activityimg:first-of-type {
         grid-column: 2/span 2;
