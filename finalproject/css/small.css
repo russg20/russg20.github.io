@@ -65,11 +65,7 @@ nav a:hover {
     display: block;
 }
 .templeactivity {
-    display: flex;
-    flex-direction: column;
-}
-.activityimg {
-    justify-content: center;
+    text-align: center;
 }
 #come {
     text-align: center;
