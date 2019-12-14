@@ -28,4 +28,8 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto;
     }
+    .okcimages {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
