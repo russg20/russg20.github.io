@@ -65,7 +65,7 @@ nav a:hover {
     display: block;
 }
 .templeactivity {
-    margin-top: 60px;
+    margin: 50px auto 20px auto;
 }
 #come {
     text-align: center;
@@ -83,4 +83,5 @@ nav a:hover {
 #okcimages {
     margin: 20px auto;
     display: block;
+    justify-items: center;
 }
