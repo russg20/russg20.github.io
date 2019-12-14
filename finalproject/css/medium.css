@@ -33,4 +33,7 @@
         display: grid;
         grid-template-columns: auto;
     }
+    #okcdrop {
+        display: none;
+    }
 }
