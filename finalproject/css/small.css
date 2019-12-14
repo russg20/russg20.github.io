@@ -86,6 +86,7 @@ nav a:hover {
 #okcimages {
     margin: 20px auto;
     display: block;
+    text-align: center;
 }
 .okcsumimg {
     margin: 10px auto;
