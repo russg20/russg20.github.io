@@ -35,6 +35,10 @@
         display: grid;
     }
     .footerstuff {
-        max-width: 800px;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 950px;
+    }
+    footer img {
+        display: grid;
     }
 }
