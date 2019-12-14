@@ -74,6 +74,8 @@ nav a:hover {
     background-color: #4570b4;
     color: #fdfffc;
     border: 1px solid black;
-    padding: 15px;
-    margin: 0 auto;
+    padding: 1rem;
+    margin: 10px auto;
+    text-align: center;
+    width: 30rem;
 }
