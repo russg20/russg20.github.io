@@ -4,11 +4,11 @@
         width: 100%;
         max-width: 800px;
         margin: 50px auto;
+        margin-bottom: 20px;
 
     }
     .templeactivity {
         display: grid;
-        margin: 0 auto;
         grid-template-columns: auto;
     }
     .activityimg:first-of-type {
