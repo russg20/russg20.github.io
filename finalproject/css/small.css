@@ -70,3 +70,10 @@ nav a:hover {
 #come {
     text-align: center;
 }
+.featuredTemple {
+    background-color: #4570b4;
+    color: #fdfffc;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 auto;
+}
