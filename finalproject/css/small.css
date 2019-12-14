@@ -28,6 +28,7 @@ header img {
 }
 .bookNow button {
     padding: 10px;
+    background-color: coral;
 }
 nav {
     background-color: #2a4780;
@@ -66,6 +67,7 @@ nav a:hover {
 }
 .templeactivity {
     text-align: center;
+    margin-top: 40px;
 }
 #come {
     text-align: center;
@@ -95,7 +97,7 @@ nav a:hover {
 }
 .phone1 {
     font-size: 1.5rem;
-    color: red;
+    color: coral;
 }
 footer h4 {
     font-size: 1.3rem;
