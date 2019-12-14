@@ -73,6 +73,10 @@ nav a:hover {
     text-align: center;
     font-size: 1.2rem;
     margin: 20px;
+    background-color: #4570b4;
+    width: 30rem;
+    color: #fdfffc;
+    font-family: 'Great Vibes', cursive;
 }
 .featuredTemple {
     background-color: #4570b4;
