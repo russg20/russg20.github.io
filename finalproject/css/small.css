@@ -72,6 +72,7 @@ nav a:hover {
 #come {
     text-align: center;
     font-size: 1.2rem;
+    margin: 20px;
 }
 .featuredTemple {
     background-color: #4570b4;
@@ -97,7 +98,7 @@ nav a:hover {
 }
 .phone1 {
     font-size: 1.5rem;
-    color: coral;
+    color: red;
 }
 footer h4 {
     font-size: 1.3rem;
