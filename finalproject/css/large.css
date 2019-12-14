@@ -34,4 +34,7 @@
     #okcdrop {
         display: grid;
     }
+    .footerstuff {
+        max-width: 800px;
+    }
 }
