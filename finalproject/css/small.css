@@ -64,12 +64,12 @@ nav a:hover {
 .responsive li {
     display: block;
 }
-.templeactivity {
-    margin: 50px auto 20px auto;
+.activityimg {
+    margin: 10px auto;
 }
 #come {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .featuredTemple {
     background-color: #4570b4;
