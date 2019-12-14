@@ -9,7 +9,6 @@
     }
     .templeactivity {
         display: grid;
-        grid-template-columns: auto;
     }
     .activityimg:first-of-type {
         grid-column: 2/span 2;
