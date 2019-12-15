@@ -41,4 +41,8 @@
     footer img {
         display: grid;
     }
+    .allmethods {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
