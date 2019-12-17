@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Temple Inn & Suites</title>
+    <meta name="description" content="The contact page for the Temple Inn & Suites website">
+    <meta name="author" content="Ginger Russ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7cMarmelad&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/templeSuitesLogo2.jpg" alt="Logo for the Temple Inn & Suites">
+        <h1 id="heading1">The Temple Inn & Suites</h1>
+        <section class="bookNow">
+            <div id="reserveNow">Make your reservations here: </div>
+            <button type="button" onclick="window.location.href='reservations.html';">Book Now!</button>
+
+        </section>
+    </header>
+    <nav>
+        <ul class="navigmenu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html" >Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+       <h2 class="thankyou">Thank you for making a reservation at the Temple Inn & Suites!</h2>
+       <p class="thanksp">We will be contacting you within 24 hours to finalize your plans.</p>
+        <img src="images/thank-you-img.jpg" alt="Flowers with a thank you card on a table" id="thanksImg">
+    </main>
+
+    <footer>
+        <h4>Contact Us</h4>
+        <div class="footerstuff">
+            <section class="templeinnadd">
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <p>Email: reservations@templeinn.org</p>
+            </section>
+            <section class="callNow">
+                <p class="callpara">Book online or call:</p>
+                <p class="phone1">(800) 535-7717</p>
+            </section>
+            <img src="images/telephones.jpg" alt="Picture of a cellphone and a handset from a landline">
+        </div>
+        <span class="copyright">&copy; 2019</span>
+        <span class="copyright"> The Temple Inn & Suites</span>
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+
+</body>
+</html>

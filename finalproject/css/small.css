@@ -268,3 +268,15 @@ label.above2 select {
     padding: 0.65rem;
     background-color: #689fd7;
 }
+.thankyou {
+    text-align: center;
+    font-size: 2rem;
+}
+.thanksp {
+    font-size: 1.2rem;
+    color: gray;
+}
+#thanksImg {
+    width: 300px;
+    text-align: center;
+}
