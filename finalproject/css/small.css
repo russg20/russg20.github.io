@@ -277,7 +277,7 @@ label.above2 select {
     color: gray;
     text-align: center;
 }
-#thanksImg {
-    max-width: 300px;
+.thanksImg {
+    width: 300px;
     text-align: center;
 }
