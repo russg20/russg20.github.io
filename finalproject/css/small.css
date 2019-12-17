@@ -277,7 +277,9 @@ label.above2 select {
     color: gray;
     text-align: center;
 }
-.thanksImg {
+.thanksImg img {
     width: 300px;
+}
+.thanksImg {
     text-align: center;
 }
