@@ -207,3 +207,64 @@ div.ctrform {
     width: 350px;
     margin: 10px auto;
 }
+
+/* CSS for Reservations page */
+
+.allForm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.reservehead {
+    text-align: center;
+}
+.flexbox1, .flexbox2, .flexbox3 {
+    display: flex;
+    flex-direction: column;
+}
+.flex4Head {
+    font-size: 1.2rem;
+    margin: 15px 2%;
+}
+.flexbox4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 800px;
+}
+.above2 {
+    margin: 10px 2%;
+}
+.above2 input {
+    padding: 0.65rem;
+    background-color: #689fd7;
+}
+.nextto2 {
+    margin: 1rem 2%;
+}
+.numRooms input {
+    max-width: 1.2rem;
+    padding: 0.5rem;
+    background-color: #689fd7;
+}
+.personalinfo {
+    font-size: 1.2rem;
+    margin: 15px 2%;
+}
+.comments {
+    font-size: 1.2rem;
+    margin: 15px 2%;
+}
+.flexbox3 textarea {
+    width: 100%;
+    max-width: 20rem;
+    height: 10rem;
+    margin-left: 2%;
+}
+.subButton {
+    margin: 15px 2%;
+    background-color: coral;
+    padding: 0.65rem;
+}
+label.above2 select {
+    padding: 0.65rem;
+    background-color: #689fd7;
+}

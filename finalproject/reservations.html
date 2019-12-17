@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | Temple Inn & Suites</title>
-    <meta name="description" content="The landing page for the Temple Inn & Suites website">
+    <title>Reservations | Temple Inn & Suites</title>
+    <meta name="description" content="The reservations page for the Temple Inn & Suites website">
     <meta name="author" content="Ginger Russ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7cMarmelad&display=swap" rel="stylesheet">
@@ -14,6 +15,7 @@
     <link href="css/large.css" rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <img src="images/templeSuitesLogo2.jpg" alt="Logo for the Temple Inn & Suites">
@@ -29,13 +31,72 @@
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="temples.html">Temples</a></li>
-            <li><a href="reservations.html" >Reservations</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        
+        <h2 class="reservehead">Make a reservation below for one of our locations.</h2>
+        <div class="allForm">
+            <form method="GET" action="reservethanks.html">
+                <div class="flexbox1">
+                    <label class="above2">
+                        <select name="innlocation">
+                            <option value="" disabled selected>Select Location...</option>
+                            <option value="chicago">Chicago, Illinois</option>
+                            <option value="detroit">Detroit, Michigan</option>
+                            <option value="kansascity">Kansas City, Missouri</option>
+                            <option value="oklahomacity">Oklahoma City, Oklahoma</option>
+                        </select>
+                    </label>
+                    <label class="above2">Check-in Date* <input type="date" name="checkIn" required></label>
+                    <label class="above2">Check-out Date <input type="date" name="checkOut"></label>
+                </div>
+                <h3 class="flex4Head">Type and number of rooms needed:</h3>
+                <div class="flexbox4">
+
+                    <label class="nextto2"><input type="checkbox" name="singlefull" value="yes"> Single Full Bed
+                    </label><label class=numRooms># of this type: <input type="number" name="numSingFull"
+                            pattern="[0-9]{1,2"></label>
+                    <label class="nextto2"><input type="checkbox" name="twofull" value="yes"> Two Full Beds
+                    </label><label class="numRooms"># of this type: <input type="number" name="numTwoFull"
+                            pattern="[0-9]{1,2}"></label>
+                    <label class="nextto2"><input type="checkbox" name="fourfull" value="yes"> Four Full Beds
+                    </label><label class="numRooms"># of this type: <input type="number" name="numFourFull"
+                            pattern="[0-9]{1,2}"></label>
+                    <label class="nextto2"><input type="checkbox" name="singleQ" value="yes"> Single Queen Bed
+                    </label><label class="numRooms"># of this type: <input type="number" name="numSingQ"
+                            pattern="[0-9]{1,2}"></label>
+                    <label class="nextto2"><input type="checkbox" name="TwoQ" value="yes"> Two Queen Beds </label><label
+                        class="numRooms"># of this type: <input type="number" name="numTwoQ"
+                            pattern="[0-9]{1,2}"></label>
+                    <label class="nextto2"><input type="checkbox" name="oneQ2Full" value="yes"> One Queen, Two Full Beds
+                    </label><label class="numRooms"># of this type: <input type="number" name="num1Q2Full"
+                            pattern="[0-9]{1,2}"></label>
+
+                </div>
+                <div class="flexbox2">
+                    <h3 class="personalinfo">Personal Information</h3>
+                    <label class="above2">Full Name:* <input type="text" name="fullName" pattern="[A-Za-z\s]{5,}"
+                            required></label>
+                    <label class="above2">Email address: <input type="email" name="email"
+                            placeholder="someone@gmail.com"></label>
+                    <label class="above2">Phone number:* <input type="tel" name="phone" placeholder="1235551234"
+                            required></label>
+                    <label class="above2">Home State: <input type="text" name="state" placeholder="CA"
+                            pattern="[A-Za-z]{2}"></label>
+                    <label class="above2">Home Country: <input type="text" name="country" placeholder="Canada"></label>
+
+                </div>
+                <div class="flexbox3">
+                    <div class="comments">Special accommodations or comments:</div>
+                    <textarea name="comments" placeholder="Enter comments here..."></textarea>
+                </div>
+                <input type="submit" value="Make reservation" class="subButton">
+                <input type="hidden" name="redirect" value="reservethanks.html">
+            </form>
+        </div>
     </main>
     <footer>
         <h4>Contact Us</h4>
@@ -58,4 +119,5 @@
     <script src="js/hamburger.js"></script>
 
 </body>
+
 </html>
