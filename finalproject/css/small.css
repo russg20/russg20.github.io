@@ -88,10 +88,7 @@ nav a:hover {
     text-align: center;
     width: 30rem;
 }
-#okcimages {
-    margin: 20px auto;
-    display: block;
-}
+
 .okcsumimg {
     margin: 10px auto;
     text-align: center;
@@ -284,4 +281,13 @@ label.above2 select {
 }
 .thanksImg {
     text-align: center;
+}
+
+/* CSS for Services page */
+
+.servicesHead, .servicesexp {
+    text-align: center;
+}
+.specialservHead, .specialserv, .amenitiesexp, .amenitiesHead, .amenities {
+    margin-left: 2%;
 }
