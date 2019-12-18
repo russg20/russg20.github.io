@@ -104,7 +104,7 @@ nav a:hover {
 }
 .phone1 {
     font-size: 1.5rem;
-    color: red;
+    color: yellow;
 }
 footer h4 {
     font-size: 1.3rem;
@@ -211,6 +211,7 @@ div.ctrform {
 /* CSS for Reservations page */
 
 .allForm {
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
 }
