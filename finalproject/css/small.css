@@ -291,3 +291,6 @@ label.above2 select {
 .specialservHead, .specialserv, .amenitiesexp, .amenitiesHead, .amenities {
     margin-left: 2%;
 }
+.servicesexp {
+    margin-bottom: 25px;
+}
