@@ -294,3 +294,7 @@ label.above2 select {
 .servicesexp {
     margin-bottom: 3rem;
 }
+.services {
+    display: grid;
+    grid-template-columns: 1fr;
+}

@@ -27,6 +27,9 @@
         flex: 1 1 100%;
         display: block;
     }
+    .navigmenu a {
+        font-size: 1.2rem;
+    }
     .okcimages {
         grid-template-columns: auto auto auto;
         grid-gap: 15px;
@@ -43,6 +46,9 @@
     }
     .allmethods {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .services {
         grid-template-columns: 1fr 1fr;
     }
 }
