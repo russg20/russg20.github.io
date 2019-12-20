@@ -298,3 +298,30 @@ label.above2 select {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+/* CSS for Receptions page */
+
+.receptionHead, .receptionexp {
+    text-align: center;
+    padding: 15px;    
+}
+.receptcontainer {
+    display: block;
+}
+.layoutHead, .layoutp {
+    text-align: center;
+    padding: 15px;
+}
+.layoutlist {
+    margin: auto 3%;
+    margin-bottom: 15px;
+}
+.receptimg {
+    max-width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+.layoutHead {
+    background-color: #689fd7;
+    max-width: 300px;
+    margin: 0 auto;

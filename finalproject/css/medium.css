@@ -37,4 +37,7 @@
     #okcdrop {
         display: none;
     }
+    .receptimg {
+        max-width: 350px;
+    }
 }

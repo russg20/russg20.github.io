@@ -51,4 +51,12 @@
     .services {
         grid-template-columns: 1fr 1fr;
     }
+    .receptcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .receptimg {
+        max-width: 400px;
+        justify-items: center;
+    }
 }
