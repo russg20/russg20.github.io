@@ -329,14 +329,15 @@ label.above2 select {
 
 /* CSS for Missionary page */
 
+.servicesexp {
+    margin-right: 2%;
+    margin-left: 2%;
+}
 .missioncont {
     display: block;
 }
 .apartfeat, .contactHead {
     margin-left: 2%;
-}
-.apartinfo {
-    align-items: center;
 }
 .apartlist {
     margin-left: 25px;
@@ -372,4 +373,5 @@ label.above2 select {
 }
 .community {
     max-width: 800px;
+    margin-bottom: 4rem;
 }
