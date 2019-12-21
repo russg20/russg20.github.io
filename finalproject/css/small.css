@@ -325,3 +325,51 @@ label.above2 select {
     background-color: #689fd7;
     max-width: 300px;
     margin: 0 auto;
+}
+
+/* CSS for Missionary page */
+
+.missioncont {
+    display: block;
+}
+.apartfeat, .contactHead {
+    margin-left: 2%;
+}
+.apartinfo {
+    align-items: center;
+}
+.apartlist {
+    margin-left: 25px;
+}
+.community, .contactexp {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.suitescontact form label.above {
+    display: block;
+    padding-top: 1rem;
+    margin-left: 2%;
+}
+.suitescontact form label.above input {
+    padding: 0.75rem;
+    max-width: 20rem;
+    border: 1px solid black;
+
+}
+.suitescontact form input.subButton {
+    border: none;
+    background-color: coral;
+    color: black;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+.contform {
+    width: 95%;
+    text-align: center;
+}
+.community {
+    max-width: 800px;
+}

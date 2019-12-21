@@ -59,4 +59,8 @@
         max-width: 400px;
         justify-items: center;
     }
+    .missioncont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
