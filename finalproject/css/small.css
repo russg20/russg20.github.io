@@ -338,6 +338,9 @@ label.above2 select {
 }
 .apartfeat, .contactHead {
     margin-left: 2%;
+    background-color: #689fd7;
+    max-width: 20rem;
+    padding: 10px;
 }
 .apartlist {
     margin-left: 25px;
