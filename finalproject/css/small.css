@@ -190,7 +190,8 @@ div.ctrform {
 }
 .method {
     font-size: 1.2rem;
-    color: slategray;
+    color: gray;
+    font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 15px;
