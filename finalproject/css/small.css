@@ -378,3 +378,20 @@ label.above2 select {
     max-width: 800px;
     margin-bottom: 4rem;
 }
+/* CSS for temples page */
+
+.templesHead {
+    text-align: center;
+}
+.temples {
+    margin: 15px 4%;
+    border: 1px solid #689fd7;
+    padding: 2%;
+}
+.sealsched {
+    margin-bottom: 20px;
+}
+.templeimg {
+    width: 400px;
+    margin: 2%;
+}
